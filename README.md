@@ -77,7 +77,7 @@ In this exercise, you will be setting up the Open AI resource and installtion of
    SQL_ENGINE = "sqlite"
    ```
    
-1. After updating the values the `secrets.env` file should be as shown in the below screenshot, press **CTRL + S** to save the file.
+1. After updating values the `secrets.env` file should be as shown in the below screenshot, press **CTRL + S** to save the file.
 
    ![](images/vscode-secrets.png "Azure OpenAI")
    
