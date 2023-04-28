@@ -6,7 +6,7 @@
 
     ![](images/EX2-Task1-step1.png "Natural Language Query")
 
-2. In the **Natural Language Query** page, on the left side menu, select the **SQL Query Writing Assistant** as Choose the app, in the **GPT module** from the drop-down menu select **ChatGPT**, from the **FAQs** dropdown select **Show me revenue by product in ascending order** and click on **Submit**. According to the query, the values will be displayed. 
+2. On the Natural Language Query page, select **SQL Query Writing Assistant** from the left-side menu, from the **GPT module**, select **ChatGPT**, and change the **FAQs** from the drop-down menu to select **Show me revenue by-product in ascending order**. According to the query, the values will be displayed. 
 
     ![](images/EX2-Task1-step2.png "Natural Language Query")
     
