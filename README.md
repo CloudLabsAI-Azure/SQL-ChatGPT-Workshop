@@ -10,7 +10,7 @@ This application demonstrates the of Open AI (ChatGPT/GPT-4) to help answer busi
 
 The application supports Python's built-in SQLITE as well as your own Microsoft SQL Server.
 
-## Exercise 1: Installation / Open AI setup
+## Exercise 1: Open AI setup and Installation of Application
 
 In this exercise, you will be setting up the Open AI resource and installtion of application locally.
 
@@ -52,4 +52,44 @@ In this exercise, you will be setting up the Open AI resource and installtion of
    
 ### Task 2: Install the application locally
 
-1. 
+1. Navigate back to Home page of Azure portal and open **Cloud Shell**.
+
+   ![](images/open-cloudshell.png "Azure OpenAI")
+   
+1. In the Welcome to Azure Cloud Shell pane, select **Bash** and click on show advanced settings to mount the storage account to Cloud Shell.
+
+1. Leave deafult settings, select **Create new** **(1)** File share and enter name as **blob** **(2)**. Then click on **Create storage** **(3)**.
+  
+   ![](images/mount-sa-cs.png "Azure OpenAI")
+
+1. Run the below code to clone the **OpenAI Workshop** Repo.
+
+   ```
+   git clone https://github.com/microsoft/OpenAIWorkshop.git
+   ```
+   
+1. Once the Git Repo is cloned. Run the below command to change the directory.
+
+   ```
+   cd OpenAIWorkshop/scenarios/natural_language_query/streamlit
+   ```
+   
+   ![](images/gitclone-cd.png "Azure OpenAI")
+   
+1. Provide settings for Open AI and Database by creating a ```secrets.env``` file in the root of this folder by running the below command.
+
+   ```
+   code secrets.env
+   ```
+   
+1. Enter the below below code in the codespace and update the OpenAI Key, Model Name and Endpoint values which you have copied and stored in text file earlier.
+
+   ```
+   AZURE_OPENAI_API_KEY="********************************" #Replace with the OpenAI Key
+   AZURE_OPENAI_GPT4_DEPLOYMENT="NAME_OF_GPT_4_DEPLOYMENT" #Replace with the OpenAI Model Name
+   AZURE_OPENAI_CHATGPT_DEPLOYMENT="NAME_OF_CHATGPT_4_DEPLOYMENT" #Replace with the OpenAI Model
+   AZURE_OPENAI_ENDPOINT=https://openairesourcename.openai.azure.com/ #Replace with the OpenAI Endpoint
+   SQL_ENGINE = "sqlite"
+   ```
+   
+   ![](images/create-openai-validate.png "Azure OpenAI")
