@@ -77,7 +77,9 @@ In this exercise, you will be setting up the Open AI resource and installtion of
    SQL_ENGINE = "sqlite"
    ```
    
-1. After updating the values, press **CTRL + S** to save the file.
+1. After updating the values the `secrets.env` file should be as shown in the below screenshot, press **CTRL + S** to save the file.
+
+   ![](images/vscode-secrets.png "Azure OpenAI")
    
 1. To run the application from the command line navigate back to Command Prompt and run the below command:
 
@@ -87,6 +89,9 @@ In this exercise, you will be setting up the Open AI resource and installtion of
    
 1. Once the execution of `streamlit run app.py` is completed. A locally hosted demo appliation will be opened in the web browser.
 
+   ![](images/streamlit-run.png "Azure OpenAI")
+   
+   ![](images/demo-app.png "Azure OpenAI")
 
 ## Summary
 
