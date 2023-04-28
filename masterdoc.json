@@ -1,18 +1,20 @@
-[ {
+[ 
+  {
   "Name": "SQL-ChatGPT-Workshops",
   "Language": "English",
   "Files": [
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/getstartpage.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SQL-ChatGPT-workshops/main/getting-started.md",
       "Order": 1
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/01-Arc-enabled-SQL-Server.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SQL-ChatGPT-workshops/main/README.md",
       "Order": 2
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/02-Single-Pane-of-Glass-Dashboard.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SQL-ChatGPT-workshops/main/hosted-demo-application.md",
       "Order": 3
     }
   ]
-} ]
+ } 
+]
