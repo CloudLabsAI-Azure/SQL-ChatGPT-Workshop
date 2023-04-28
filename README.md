@@ -76,13 +76,13 @@ In this exercise, you will be setting up the Open AI resource and installtion of
    
    ![](images/gitclone-cd.png "Azure OpenAI")
    
-1. Provide settings for Open AI and Database by creating a ```secrets.env``` file in the root of this folder by running the below command.
+1. Provide settings for Open AI and Database by creating a ```secrets.env``` file in the root of this folder by running the below command **(1)**.
 
    ```
    code secrets.env
    ```
    
-1. Enter the below below code in the codespace and update the OpenAI Key, Model Name and Endpoint values which you have copied and stored in text file earlier.
+1. Enter the below below code in the codespace and update the OpenAI Key, Model Name and Endpoint values **(2)** which you have copied and stored in text file earlier.
 
    ```
    AZURE_OPENAI_API_KEY="********************************" #Replace with the OpenAI Key
@@ -92,4 +92,32 @@ In this exercise, you will be setting up the Open AI resource and installtion of
    SQL_ENGINE = "sqlite"
    ```
    
-   ![](images/create-openai-validate.png "Azure OpenAI")
+   ![](images/openai-secrets.png "Azure OpenAI")
+   
+1. Click on the ellipse **(1)** at the right top-corner for more options in the Code editor window and then click **Save** **(2)**.
+
+   ![](images/save-secrets.png "Azure OpenAI")
+   
+1. Once again click on the ellipse **(1)** at the right top-corner for more options in the Code editor window and then click **Close Editor** **(2)**.
+
+   ![](images/close-editor.png "Azure OpenAI")
+   
+1. Make sure you are in the ```OpenAIWorkshop/scenarios/natural_language_query/streamlit`` directory. If not run the below command:
+
+   ```
+   cd OpenAIWorkshop/scenarios/natural_language_query/streamlit
+   ```
+  
+1. Check the Python version installed and import the required pacakages by running the below commands.
+
+   ```
+   python --version
+   pip install -r requirements.txt
+   ```
+   
+1. To run the application from the command line, run the below command:
+
+   ```
+   streamlit run app.py
+   ```
+   
