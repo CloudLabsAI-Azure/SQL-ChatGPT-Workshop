@@ -46,4 +46,10 @@ In this exercise, you will be setting up the Open AI resource and installtion of
 
    ![](images/openai-create-model.png "Azure OpenAI")
    
+1. Now select **Keys and Endpoints** **(1)** under Resource Management and click on **Show Keys** **(2)**. Copy the **KEY 1** **(3)** and **Endpoint** **(4)**, store it in a text file for later use.
+
+   ![](images/openai-keys-ep.png "Azure OpenAI")
+   
+### Task 2: Install the application locally
+
 1. 
