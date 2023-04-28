@@ -42,7 +42,7 @@ In this exercise, you will be setting up the Open AI resource and installtion of
 
    ![](images/openai-model-deployment.png "Azure OpenAI")
    
-1. You will see create model deployment pane appears in the right-side, enter the Model deployement name as **sql-chatgpt-model** **(1)** and select **gpt-35-turbo** **(2)** Model deployment with the version **0301** **(3)** then click on **Save** **(4)**.
+1. You will see create model deployment pane appears in the right-side, enter the Model deployement name as **sql-chatgpt-model** **(1)** and select **gpt-35-turbo** **(2)** Model deployment with the version **0301** **(3)** then click on **Save** **(4)**. Copy OpenAI Model name into the text file for later use.
 
    ![](images/openai-create-model.png "Azure OpenAI")
    
@@ -52,37 +52,22 @@ In this exercise, you will be setting up the Open AI resource and installtion of
    
 ### Task 2: Install the application locally
 
-1. Navigate back to Home page of Azure portal and open **Cloud Shell**.
+1. In the LabVM, navigate to Desktop and search for `cmd` in the search box then click on **Command Prompt**.
 
-   ![](images/open-cloudshell.png "Azure OpenAI")
    
-1. In the Welcome to Azure Cloud Shell pane, select **Bash** and click on show advanced settings to mount the storage account to Cloud Shell.
-
-1. Leave deafult settings, select **Create new** **(1)** File share and enter name as **blob** **(2)**. Then click on **Create storage** **(3)**.
-  
-   ![](images/mount-sa-cs.png "Azure OpenAI")
-
-1. Run the below code to clone the **OpenAI Workshop** Repo.
+1. Run the below command to change the directory.
 
    ```
-   git clone https://github.com/microsoft/OpenAIWorkshop.git
+   cd C:\LabFiles\OpenAIWorkshop\scenarios\natural_language_query\streamlit
    ```
    
-1. Once the Git Repo is cloned. Run the below command to change the directory.
-
-   ```
-   cd OpenAIWorkshop/scenarios/natural_language_query/streamlit
-   ```
-   
-   ![](images/gitclone-cd.png "Azure OpenAI")
-   
-1. Provide settings for Open AI and Database by creating a ```secrets.env``` file in the root of this folder by running the below command **(1)**.
+1. Provide settings for Open AI and Database by creating a ```secrets.env``` file in the root of this folder by running the below command.
 
    ```
    code secrets.env
    ```
    
-1. Enter the below below code in the codespace and update the OpenAI Key, Model Name and Endpoint values **(2)** which you have copied and stored in text file earlier.
+1. You will see the Visual Studio code is opened in the desktop. Enter the below code and update the OpenAI Key, Model Name and Endpoint values which you have copied and stored in text file earlier.
 
    ```
    AZURE_OPENAI_API_KEY="********************************" #Replace with the OpenAI Key
@@ -92,32 +77,18 @@ In this exercise, you will be setting up the Open AI resource and installtion of
    SQL_ENGINE = "sqlite"
    ```
    
-   ![](images/openai-secrets.png "Azure OpenAI")
+1. After updating the values, press **CTRL + S** to save the file.
    
-1. Click on the ellipse **(1)** at the right top-corner for more options in the Code editor window and then click **Save** **(2)**.
-
-   ![](images/save-secrets.png "Azure OpenAI")
-   
-1. Once again click on the ellipse **(1)** at the right top-corner for more options in the Code editor window and then click **Close Editor** **(2)**.
-
-   ![](images/close-editor.png "Azure OpenAI")
-   
-1. Make sure you are in the ```OpenAIWorkshop/scenarios/natural_language_query/streamlit`` directory. If not run the below command:
-
-   ```
-   cd OpenAIWorkshop/scenarios/natural_language_query/streamlit
-   ```
-  
-1. Check the Python version installed and import the required pacakages by running the below commands.
-
-   ```
-   python --version
-   pip install -r requirements.txt
-   ```
-   
-1. To run the application from the command line, run the below command:
+1. To run the application from the command line navigate back to Command Prompt and run the below command:
 
    ```
    streamlit run app.py
    ```
+   
+1. Once the execution of `streamlit run app.py` is completed. A locally hosted demo appliation will be opened in the web browser.
+
+
+## Summary
+
+In this exercise, you have completed OpenAI Setup and hosting a demo application locally. You will be exploring the demo application in the next exercise, click **Next** to continue with the lab.
    
