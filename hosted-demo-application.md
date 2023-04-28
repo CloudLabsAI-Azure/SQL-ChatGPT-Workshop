@@ -26,10 +26,8 @@
 
 7. Once you exlore the output part, select the **FAQs** from the drop-down menu to select **Is that true that top 20% customers generate 80% revenue in 2016? What's their percentage of revenue contribution?**, and click on **Submit**. 
  
-    ![](images/EX2-Task1-step7.png "Natural Language Query")
-
 8. Upon completion, you will see an output similar to the one below. You can explore the output by scrolling down.
 
-    ![](images/EX2-Task1-step8.png "Natural Language Query")  
+    ![](images/EX2-Task1-step7.png "Natural Language Query")  
     
 9. The dropdown menu allows you to browse the rest of the **FAQs** by changing the Input value.     
