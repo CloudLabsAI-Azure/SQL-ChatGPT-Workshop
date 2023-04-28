@@ -1,6 +1,6 @@
 # Exercise 2: Quick Start With Hosted Hemo Application.
 
-## Task 2: Analyzing Data Analysis Assistant and SQL Query Writing Assistant
+## Task 1: Analyzing Data Analysis Assistant and SQL Query Writing Assistant
 
 1. When you're on the **Natural Language Query** page, click on **Settings** from the left side menu. Ensure that the **ChatGPT deployment name**, **GPT-4 deployment name**, **Azure OpenAI Endpoint**, and **Azure OpenAI Key** have all been filled in. Click on **Submit**.
 
