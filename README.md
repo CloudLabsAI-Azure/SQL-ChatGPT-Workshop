@@ -1,1 +1,1 @@
-# SQL-ChatGPT-workshops
+# SQL-ChatGPT-Workshops
