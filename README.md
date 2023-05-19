@@ -53,7 +53,6 @@ In this exercise, you will be setting up the Open AI resource and installtion of
 ### Task 2: Install the application locally
 
 1. In the LabVM, navigate to Desktop and search for `cmd` in the search box then click on **Command Prompt**.
-
    
 1. Run the below command to change the directory.
 
@@ -83,11 +82,13 @@ In this exercise, you will be setting up the Open AI resource and installtion of
    
 1. To run the application from the command line navigate back to Command Prompt and run the below command:
 
+   >**Note**: Here, you can enter your email address below to get notifications. Otherwise, leave this field blank and click on **Enter**.
+
    ```
    streamlit run app.py
    ```
    
-1. Once the execution of `streamlit run app.py` is completed. A locally hosted demo appliation will be opened in the web browser.
+1. Once the execution of `streamlit run app.py` is completed. A locally hosted demo appliation will be opened in the web browser. 
 
    ![](images/streamlit-run.png "Azure OpenAI")
    
