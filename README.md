@@ -90,7 +90,7 @@ In this exercise, you will be setting up the Open AI resource and installtion of
    
 1. Once the execution of `streamlit run app.py` is completed. A locally hosted demo appliation will be opened in the web browser. 
 
-   ![](images/streamlit-run.png "Azure OpenAI")
+   ![](images/streamlit-run-latest.png "Azure OpenAI")
    
    ![](images/demo-app.png "Azure OpenAI")
 
