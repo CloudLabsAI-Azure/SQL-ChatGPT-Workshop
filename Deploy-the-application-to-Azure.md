@@ -40,61 +40,69 @@ In this exercise, you will be setting up the Open AI resource and installtion of
    
 1. In the Azure OpenAI resource pane, click on **Go to Azure OpenAI Studio** it will navaigate to **Azure AI Studio**.
 
-   ![](images/openai-model-deployment.png "Azure OpenAI")
+   ![](images/azureaIstudio.png "Azure OpenAI")
    
 1. In the **Azure AI Studio**, select **Deployments (1)** under Management and click on **+ Create new deployment (2)**    
    
-   ![](images/openai-model-deployment.png "Azure OpenAI")
+   ![](images/azureaIstudiodep.png "Azure OpenAI")
    
-1.  On the Deploy model pop-up, from the drop-down select **gpt-35-turbo (1)** for Select a Model, then select the Modle version **0301**, enter deployment name as **sql-chatgpt-model (3)** then click on **Save (4)**. Copy OpenAI Model name into the text file for later use.
+1.  On the Deploy model pop-up, from the drop-down select **gpt-35-turbo (1)** for Select a Model, then select the Modle version **0301 (2)**, enter deployment name as **sql-chatgpt-model (3)** then click on **Save (4)**. Copy OpenAI Model name into the text file for later use.
   
-1. You will see create model deployment pane appears in the right-side, enter the Model deployement name as **sql-chatgpt-model** **(1)** and select **gpt-35-turbo** **(2)** Model deployment with the version **0301** **(3)** then click on **Save** **(4)**. Copy OpenAI Model name into the text file for later use.
+      ![](images/openai-create.png "Azure OpenAI")
 
-   ![](images/openai-create-model.png "Azure OpenAI")
+1. Naviagte back to [Azure portal](http://portal.azure.com/), search and select **Azure OpenAI**, from the **Cognitive Services | Azure OpenAI pane**, select the **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
+
+1. Now select **Keys and Endpoints** **(1)** under Resource Management and click on **Show Keys** **(2)**. Copy the **KEY 1** **(3)** and **Endpoint** **(4)**, store it in a text file for later use.
+
+   ![](images/openai-keys-ep.png "Azure OpenAI")
       
-### Task 2: Install the application locally
+### Task 2: Deploy the application to Azure
 
-1. In the LabVM, navigate to Desktop and search for `cmd` in the search box then click on **Command Prompt**.
-   
-1. Run the below command to change the directory.
+1. In the LabVM, open **File Explorer** naviagte to the `C:\LabFiles\OpenAIWorkshop-Automation\infra` **(1)** path, right click on **main.bicep (2)**, and select **Open with Code (3)**.
 
-   ```
-   cd C:\LabFiles\OpenAIWorkshop\scenarios\incubations\automating_analytics
-   ```
-   
-1. Provide settings for Open AI and Database by creating a ```secrets.env``` file in the root of this folder by running the below command.
+   ![](images/file-select.png "Azure OpenAI")
 
-   ```
-   code secrets.env
-   ```
-   
-1. You will see the Visual Studio code is opened in the desktop. Enter the below code and update the OpenAI Key, Model Name and Endpoint values which you have copied and stored in text file earlier.
+2. In **main.bicep** file edit the line number **22** by replacing the **actualrgname** with **sql-chat-gpt-<inject key="Deployment ID" enableCopy="false"/>** and save the file by clicking on **Ctrl + S**  
 
-   ```
-   AZURE_OPENAI_API_KEY="********************************" #Replace with the OpenAI Key
-   AZURE_OPENAI_GPT4_DEPLOYMENT="NAME_OF_GPT_4_DEPLOYMENT" #Replace with the OpenAI Model Name
-   AZURE_OPENAI_CHATGPT_DEPLOYMENT="NAME_OF_CHATGPT_4_DEPLOYMENT" #Replace with the OpenAI Model
-   AZURE_OPENAI_ENDPOINT=https://openairesourcename.openai.azure.com/ #Replace with the OpenAI Endpoint
-   SQL_ENGINE = "sqlite"
-   ```
-   
-1. After updating values the `secrets.env` file should be as shown in the below screenshot, press **CTRL + S** to save the file.
+      ![](images/file-update.png "Azure OpenAI")
 
-   ![](images/vscode-secrets.png "Azure OpenAI")
-   
-1. To run the application from the command line navigate back to Command Prompt and run the below command:
+3. In the LabVM, navigate to Desktop and search for `cmd` in the search box then click on **Command Prompt**.
 
-   >**Note**: Here, you can enter your email address below to get notifications. Otherwise, leave this field blank and click on **Enter**.
+4. Run the below command to change the directory.
 
+   ```bash
+   cd C:\LabFiles\OpenAIWorkshop-Automation
    ```
-   streamlit run app.py
-   ```
-   
-1. Once the execution of `streamlit run app.py` is completed. A locally hosted demo appliation will be opened in the web browser. 
 
-   ![](images/streamlit-run-latest.png "Azure OpenAI")
-   
-   ![](images/demo-app.png "Azure OpenAI")
+5. Run the below command to **Authenticate with Azure**. It will redirect to Azure authorize website, select your account.
+
+   ```bash
+   azd auth login
+   ```
+
+6. Run the below command to **Create a new environment** and replace `{DeploymentId}` with **<inject key="Deployment ID" enableCopy="false"/>**.
+
+   ```bash
+   azd env new sql-chat-gpt-{DeploymentId}
+   ```
+
+7. Run the below command to Provision Azure resources, and deploy your project with a single command.
+
+   ```bash
+   azd up
+   ```
+
+8. Please select your Azure Subscription to use, enter `1` and click on **Enter** button.
+
+9. Please select an Azure location to use, select the location same as **Resource Group** location, and click on **Enter** button. You can change the location using up and down arrow.
+
+10. Once the Deploymet got succedded naviagte back to the Azure portal, search and select **App service**, select the available web app which you have deployed in the previous step.
+
+11. Next, click on **Browse** to open your Web application.
+
+      ![](images/webapp.png "Azure OpenAI")
+      
+      ![](images/webapp1.png "Azure OpenAI")
 
 ## Summary
 
