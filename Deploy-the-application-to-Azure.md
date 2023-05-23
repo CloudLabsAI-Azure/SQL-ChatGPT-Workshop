@@ -96,9 +96,13 @@ In this exercise, you will be setting up the Open AI resource and installtion of
 
 9. Please select an Azure location to use, select the location same as **Resource Group** location, and click on **Enter** button. You can change the location using up and down arrow.
 
-10. Once the Deploymet got succedded naviagte back to the Azure portal, search and select **App service**, select the available web app which you have deployed in the previous step.
+10. Once the deployment succeeds you will should see the following message **SUCCESS: Your application was provisioned and deployed to Azure**. The deployment might take above 5 minutes .
 
-11. Next, click on **Browse** to open your Web application.
+      ![](images/app-deployment-output.png "Azure OpenAI")
+
+11. Once the Deploymet got succedded naviagte back to the Azure portal, search and select **App service**, select the available web app which you have deployed in the previous step.
+
+12. Next, click on **Browse** to open your Web application.
 
       ![](images/webapp.png "Azure OpenAI")
       
