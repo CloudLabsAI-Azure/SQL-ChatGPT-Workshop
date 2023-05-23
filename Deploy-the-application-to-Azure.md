@@ -107,7 +107,11 @@ In this exercise, you will be setting up the Open AI resource and installtion of
 
 7. Please select your Azure Subscription to use, enter `1` and click on **Enter** button.
 
+      ![](images/app-sub.png "Azure OpenAI")
+
 8. Please select an Azure location to use, select the location same as **Resource Group** location, and click on **Enter** button. You can change the location using up and down arrow.
+
+      ![](images/app-location.png "Azure OpenAI")
 
 9. Once the deployment succeeds you will should see the following message **SUCCESS: Your application was provisioned and deployed to Azure**. The deployment might take above 5 minutes .
 
