@@ -58,14 +58,26 @@ In this exercise, you will be setting up the Open AI resource and installtion of
       
 ### Task 2: Deploy the application to Azure
 
-1. In the LabVM, open **File Explorer** naviagte to the `C:\LabFiles\OpenAIWorkshop-Automation\infra` **(1)** path, right click on **main.bicep (2)**, and select **Open with Code (3)**.
+1. In the LabVM, open **File Explorer** naviagte to the `C:\LabFiles\OpenAIWorkshop-Automation\scenarios\incubations\automating_analytics` **(1)** path, right click on **app.py (2)**, and select **Open with Code (3)**.
 
    ![](images/file-select.png "Azure OpenAI")
 
-2. In **main.bicep** file edit the line number **22** by replacing the **actualrgname** with **sql-chat-gpt-<inject key="Deployment ID" enableCopy="false"/>** and save the file by clicking on **Ctrl + S**  
+   - The code you provided is a Streamlit application that consists of two main components: a SQL Query Writing Assistant and a Data Analysis Assistant. The application allows users to interact with a SQL database and perform various tasks.
 
-      ![](images/file-update.png "Azure OpenAI")
+   - The code begins with importing necessary libraries and dependencies such as Streamlit, Pandas, NumPy, Plotly, and others. It also imports custom modules like AnalyzeGPT, SQL_Query, and ChatGPT_Handler.
 
+   - The settings for the application are loaded from environment variables or default values using the load_setting function. These settings include Azure OpenAI deployment names, endpoint, API key, SQL engine, server, database, username, password, and SQLite database path. The settings can be modified through the sidebar in the Streamlit interface.
+
+   - The code defines functions for saving the OpenAI settings, toggling the display of settings in the sidebar, and loading the settings from the session. It also sets up the Azure OpenAI configuration using the provided settings.
+
+   - The Streamlit page configuration is set, and the sidebar is created using the st.sidebar context manager. It includes radio buttons for selecting the app type (SQL Query Writing Assistant or Data Analysis Assistant), a button for accessing settings, and a radio button for selecting the GPT model (ChatGPT or GPT-4). There is also an input area for asking questions and checkboxes for showing code and prompts.
+
+   - Based on the selected app type and GPT model, the system message, few-shot examples, and extract patterns are defined. The extract patterns are used to extract relevant information from the model's response.
+
+   - The code provides a list of predefined FAQs for each GPT model. The selected question is passed to the respective assistant, which processes the question, extracts relevant information, executes SQL queries if necessary, and provides the results to the user. Users can choose to display the code, prompt, and break down the execution steps.
+   
+   - In summary, the provided Python script creates a web application for SQL query writing assistance and data analysis assistance. It integrates with the OpenAI GPT-3.5 model for natural language processing tasks and allows users to interact with the application through a user-friendly interface.
+      
 3. In the LabVM, navigate to Desktop and search for `cmd` in the search box then click on **Command Prompt**.
 
 4. Run the below command to change the directory.
