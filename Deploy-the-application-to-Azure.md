@@ -113,7 +113,9 @@ In this exercise, you will be setting up the Open AI resource and installtion of
 
       ![](images/app-deployment-output.png "Azure OpenAI")
 
-10. Once the Deploymet got succedded naviagte back to the Azure portal, search and select **App service**, select the available web app which you have deployed in the previous step.
+10. Naviagte back to the Azure portal, search and select **App service**, select the available web app which you have deployed in the previous step.
+
+      ![](images/app-service-select.png "Azure OpenAI")
 
 11. Next, click on **Browse** to open your Web application.
 
