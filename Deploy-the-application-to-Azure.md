@@ -80,9 +80,10 @@ In this exercise, you will be setting up the Open AI resource and installtion of
    azd auth login
    ```
 
-6. Run the below command to **Create a new environment** and replace `{DeploymentId}` with **<inject key="Deployment ID" enableCopy="false"/>**.
+6. Run the below command to setup the resource group deployment and **Create a new environment** and replace `{DeploymentId}` with **<inject key="Deployment ID" enableCopy="false"/>**.
 
    ```bash
+   azd config set alpha.resourceGroupDeployments on
    azd env new sql-chat-gpt-{DeploymentId}
    ```
 
