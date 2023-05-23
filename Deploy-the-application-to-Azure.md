@@ -58,7 +58,7 @@ In this exercise, you will be setting up the Open AI resource and installtion of
       
 ### Task 2: Deploy the application to Azure
 
-1. In the LabVM, open **File Explorer** naviagte to the `C:\LabFiles\OpenAIWorkshop-Automation\scenarios\incubations\automating_analytics` **(1)** path, right click on **app.py (2)**, and select **Open with Code (3)**.
+1. In the LabVM, open **File Explorer** naviagte to the `C:\LabFiles\OpenAIWorkshop-Automation\scenarios\incubations\automating_analytics` **(1)** path, right click on **app.py (2)**, and select **Open with Code (3)**. Take a look at the code to see how it works.
 
    ![](images/file-select.png "Azure OpenAI")
 
