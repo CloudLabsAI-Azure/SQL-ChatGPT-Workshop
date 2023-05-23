@@ -40,11 +40,11 @@ In this exercise, you will be setting up the Open AI resource and installtion of
    
 1. In the Azure OpenAI resource pane, click on **Go to Azure OpenAI Studio** it will navaigate to **Azure AI Studio**.
 
-   ![](images/azureaIstudio.png "Azure OpenAI")
+   ![](images/azureaIstudio1.png "Azure OpenAI")
    
 1. In the **Azure AI Studio**, select **Deployments (1)** under Management and click on **+ Create new deployment (2)**    
    
-   ![](images/azureaIstudiodep.png "Azure OpenAI")
+   ![](images/azureaIstudiodep1.png "Azure OpenAI")
    
 1.  On the Deploy model pop-up, from the drop-down select **gpt-35-turbo (1)** for Select a Model, then select the Modle version **0301 (2)**, enter deployment name as **sql-chatgpt-model (3)** then click on **Save (4)**. Copy OpenAI Model name into the text file for later use.
   
