@@ -78,48 +78,50 @@ In this exercise, you will be setting up the Open AI resource and installtion of
    
    - In summary, the Python script creates a web application for SQL query writing assistance and data analysis assistance. It integrates with the OpenAI GPT-3.5 model for natural language processing tasks and allows you to interact with the application through a user-friendly interface.
       
-3. In the LabVM, navigate to Desktop and search for `cmd` in the search box then click on **Command Prompt**.
+2. In the LabVM, navigate to Desktop and search for `cmd` in the search box then click on **Command Prompt**.
 
-4. Run the below command to change the directory.
+3. Run the below command to change the directory.
 
    ```bash
    cd C:\LabFiles\OpenAIWorkshop-Automation
    ```
 
-5. Run the below command to **Authenticate with Azure**. It will redirect to Azure authorize website, select your account.
+4. Run the below command to **Authenticate with Azure**. It will redirect to Azure authorize website, select your account.
 
    ```bash
    azd auth login
    ```
 
-6. Run the below command to setup the resource group deployment and **Create a new environment** and replace `{DeploymentId}` with **<inject key="Deployment ID" enableCopy="false"/>**.
+5. Run the below command to setup the resource group deployment and **Create a new environment** and replace `{DeploymentId}` with **<inject key="Deployment ID" enableCopy="false"/>**.
 
    ```bash
    azd config set alpha.resourceGroupDeployments on
    azd env new sql-chat-gpt-{DeploymentId}
    ```
 
-7. Run the below command to Provision Azure resources, and deploy your project with a single command.
+6. Run the below command to Provision Azure resources, and deploy your project with a single command.
 
    ```bash
    azd up
    ```
 
-8. Please select your Azure Subscription to use, enter `1` and click on **Enter** button.
+7. Please select your Azure Subscription to use, enter `1` and click on **Enter** button.
 
-9. Please select an Azure location to use, select the location same as **Resource Group** location, and click on **Enter** button. You can change the location using up and down arrow.
+8. Please select an Azure location to use, select the location same as **Resource Group** location, and click on **Enter** button. You can change the location using up and down arrow.
 
-10. Once the deployment succeeds you will should see the following message **SUCCESS: Your application was provisioned and deployed to Azure**. The deployment might take above 5 minutes .
+9. Once the deployment succeeds you will should see the following message **SUCCESS: Your application was provisioned and deployed to Azure**. The deployment might take above 5 minutes .
 
       ![](images/app-deployment-output.png "Azure OpenAI")
 
-11. Once the Deploymet got succedded naviagte back to the Azure portal, search and select **App service**, select the available web app which you have deployed in the previous step.
+10. Once the Deploymet got succedded naviagte back to the Azure portal, search and select **App service**, select the available web app which you have deployed in the previous step.
 
-12. Next, click on **Browse** to open your Web application.
+11. Next, click on **Browse** to open your Web application.
 
       ![](images/webapp.png "Azure OpenAI")
       
       ![](images/webapp1.png "Azure OpenAI")
+
+12. Click the **Next** button located in the bottom right corner of this lab guide to continue with the next exercise.
 
 ## Summary
 
