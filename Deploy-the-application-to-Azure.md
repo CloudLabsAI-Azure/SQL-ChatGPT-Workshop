@@ -12,7 +12,7 @@ The application supports Python's built-in SQLITE as well as your own Microsoft 
 
 ## Exercise 1: Open AI setup and Installation of Application
 
-In this exercise, you will be setting up the Open AI resource and installtion of application locally.
+In this exercise, you will be setting up the Open AI resource and installtion of application to Azure.
 
 ### Task 1: Create Open AI resource
 
@@ -113,11 +113,11 @@ In this exercise, you will be setting up the Open AI resource and installtion of
 
       ![](images/app-location.png "Azure OpenAI")
 
-9. Once the deployment succeeds you will should see the following message **SUCCESS: Your application was provisioned and deployed to Azure**. The deployment might take above 5 minutes .
+9. Once the deployment succeeded, you will see the following message **SUCCESS: Your application was provisioned and deployed to Azure**. The deployment might take 5 - 10 minutes.
 
       ![](images/app-deployment-output.png "Azure OpenAI")
 
-10. Naviagte back to the Azure portal, search and select **App service**, select the available web app which you have deployed in the previous step.
+10. Naviagte back to the Azure portal, search and select **App service**. Select the available web app which you have deployed in the previous step.
 
       ![](images/app-service-select.png "Azure OpenAI")
 
@@ -131,5 +131,5 @@ In this exercise, you will be setting up the Open AI resource and installtion of
 
 ## Summary
 
-In this exercise, you have completed OpenAI Setup and hosting a demo application locally. You will be exploring the demo application in the next exercise, click **Next** to continue with the lab.
+In this exercise, you have completed OpenAI Setup and hosting a demo application to Azure. You will be exploring the demo application in the next exercise, click **Next** to continue with the lab.
    
