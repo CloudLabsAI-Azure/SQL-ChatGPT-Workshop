@@ -92,7 +92,7 @@ In this exercise, you will be setting up the Open AI resource and installtion of
    azd auth login
    ```
 
-5. Run the below command to setup the resource group deployment and **Create a new environment** and replace `{DeploymentId}` with **<inject key="Deployment ID" enableCopy="false"/>**.
+5. Run the below command to setup the resource group deployment and **Create a new environment**. Make sure to replace `{DeploymentId}` with **<inject key="Deployment ID" enableCopy="true"/>** in the below command.
 
    ```bash
    azd config set alpha.resourceGroupDeployments on
