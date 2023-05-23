@@ -1,4 +1,4 @@
-# Exercise 2: Quick Start With Hosted Hemo Application.
+# Exercise 2: Quick Start With Hosted Demo Application.
 
 ## Task 1: Analyzing Data Analysis Assistant and SQL Query Writing Assistant
 
