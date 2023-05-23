@@ -62,7 +62,7 @@ In this exercise, you will be setting up the Open AI resource and installtion of
 
    ![](images/file-select.png "Azure OpenAI")
 
-   - The code you provided is a Streamlit application that consists of two main components: a SQL Query Writing Assistant and a Data Analysis Assistant. The application allows users to interact with a SQL database and perform various tasks.
+   - The provided code is a Streamlit application that consists of two main components: a SQL Query Writing Assistant and a Data Analysis Assistant. The application allows you to interact with a SQL database and perform various tasks.
 
    - The code begins with importing necessary libraries and dependencies such as Streamlit, Pandas, NumPy, Plotly, and others. It also imports custom modules like AnalyzeGPT, SQL_Query, and ChatGPT_Handler.
 
@@ -74,9 +74,9 @@ In this exercise, you will be setting up the Open AI resource and installtion of
 
    - Based on the selected app type and GPT model, the system message, few-shot examples, and extract patterns are defined. The extract patterns are used to extract relevant information from the model's response.
 
-   - The code provides a list of predefined FAQs for each GPT model. The selected question is passed to the respective assistant, which processes the question, extracts relevant information, executes SQL queries if necessary, and provides the results to the user. Users can choose to display the code, prompt, and break down the execution steps.
+   - The code provides a list of predefined FAQs for each GPT model. The selected question is passed to the respective assistant, which processes the question, extracts relevant information, executes SQL queries if necessary, and provides the results to the you. You can choose to display the code, prompt, and break down the execution steps.
    
-   - In summary, the provided Python script creates a web application for SQL query writing assistance and data analysis assistance. It integrates with the OpenAI GPT-3.5 model for natural language processing tasks and allows users to interact with the application through a user-friendly interface.
+   - In summary, the Python script creates a web application for SQL query writing assistance and data analysis assistance. It integrates with the OpenAI GPT-3.5 model for natural language processing tasks and allows you to interact with the application through a user-friendly interface.
       
 3. In the LabVM, navigate to Desktop and search for `cmd` in the search box then click on **Command Prompt**.
 
