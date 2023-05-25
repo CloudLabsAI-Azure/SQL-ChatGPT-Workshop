@@ -66,68 +66,68 @@ In this exercise, you will be setting up the Open AI resource and installtion of
 
    - The code begins with importing necessary libraries and dependencies such as Streamlit, Pandas, NumPy, Plotly, and others. It also imports custom modules like AnalyzeGPT, SQL_Query, and ChatGPT_Handler.
 
-   - The code code snippet implements a settings section where users can configure Azure OpenAI deployment settings and optional SQL Server settings. It provides input fields for entering deployment names, endpoint, API key, and SQL Server details. Users can save the settings and customize the functionality of the Streamlit application. The settings section enhances user experience by allowing them to tailor the application's behavior based on their specific requirements.
+2. In the code snippet, you can configure Azure OpenAI deployment settings and optional SQL Server settings. It provides input fields for entering deployment names, endpoints, API keys, and SQL Server details. With Streamlit, you can save settings and customize the application's functionality. Settings allow you to customize the application's behavior based on your specific needs, enhancing the overall experience.
 
-        ![](images/code01.png "Azure OpenAI")
+   ![](images/code01.png "Azure OpenAI")
 
-   - The code snippet creates a chat interface with two GPT models, "ChatGPT" and "GPT-4". It allows users to select a model, choose from FAQs specific to that model, and ask questions. The code also includes options to show the code and prompt, facilitating user interaction with the chat interface.
+3. The code snippet creates a chat interface using two GPT models, "ChatGPT" and "GPT-4". There are various models to choose from, FAQs specific to each model, and a form to ask questions. Moreover, the code includes options for showing the code and prompts, allowing you to interact with the chat interface more easily.
 
-        ![](images/code02.png "Azure OpenAI")
+   ![](images/code02.png "Azure OpenAI")
 
-   -  The code snippet includes a "Submit" button that triggers a series of checks and actions. It verifies if the necessary deployment settings and SQL server settings are provided. If all requirements are met, it creates an SQL query tool and an analyzer object. Depending on the index value, it executes different methods to run queries and display results.
+4. There is a "Submit" button in the code snippet that triggers a series of checks and actions. It verifies that the necessary deployment settings and SQL server settings are provided. If all requirements are met, it creates an SQL query tool and an analyzer object. To run queries and display results, it uses different methods based on the index value.
 
-         ![](images/code03.png "Azure OpenAI")   
+   ![](images/code03.png "Azure OpenAI")   
       
-2. In the LabVM, navigate to Desktop and search for `cmd` in the search box then click on **Command Prompt**.
+5. In the LabVM, navigate to Desktop and search for `cmd` in the search box then click on **Command Prompt**.
 
-3. Run the below command to change the directory.
+6. Run the below command to change the directory.
 
    ```bash
    cd C:\LabFiles\OpenAIWorkshop-Automation
    ```
 
-4. Run the below command to **Authenticate with Azure**. It will redirect to Azure authorize website, select your account.
+7. Run the below command to **Authenticate with Azure**. It will redirect to Azure authorize website, select your account.
 
    ```bash
    azd auth login
    ```
 
-5. Run the below command to setup the resource group deployment and **Create a new environment**. Make sure to replace `{DeploymentId}` with **<inject key="Deployment ID" enableCopy="true"/>** in the below command.
+8. Run the below command to setup the resource group deployment and **Create a new environment**. Make sure to replace `{DeploymentId}` with **<inject key="Deployment ID" enableCopy="true"/>** in the below command.
 
    ```bash
    azd config set alpha.resourceGroupDeployments on
    azd env new sql-chat-gpt-{DeploymentId}
    ```
 
-6. Run the below command to Provision Azure resources, and deploy your project with a single command.
+9. Run the below command to Provision Azure resources, and deploy your project with a single command.
 
    ```bash
    azd up
    ```
 
-7. Please select your Azure Subscription to use, enter `1` and click on **Enter** button.
+10. Please select your Azure Subscription to use, enter `1` and click on **Enter** button.
 
       ![](images/app-sub.png "Azure OpenAI")
 
-8. Please select an Azure location to use, select the location same as **Resource Group** location, and click on **Enter** button. You can change the location using up and down arrow.
+11. Please select an Azure location to use, select the location same as **Resource Group** location, and click on **Enter** button. You can change the location using up and down arrow.
 
       ![](images/app-location.png "Azure OpenAI")
 
-9. Once the deployment succeeded, you will see the following message **SUCCESS: Your application was provisioned and deployed to Azure**. The deployment might take 5 - 10 minutes.
+12. Once the deployment succeeded, you will see the following message **SUCCESS: Your application was provisioned and deployed to Azure**. The deployment might take 5 - 10 minutes.
 
       ![](images/app-deployment-output.png "Azure OpenAI")
 
-10. Naviagte back to the Azure portal, search and select **App service**. Select the available web app which you have deployed in the previous step.
+13. Naviagte back to the Azure portal, search and select **App service**. Select the available web app which you have deployed in the previous step.
 
       ![](images/app-service-select.png "Azure OpenAI")
 
-11. Next, click on **Browse** to open your Web application.
+14. Next, click on **Browse** to open your Web application.
 
       ![](images/webapp.png "Azure OpenAI")
       
       ![](images/webapp1.png "Azure OpenAI")
 
-12. Click the **Next** button located in the bottom right corner of this lab guide to continue with the next exercise.
+15. Click the **Next** button located in the bottom right corner of this lab guide to continue with the next exercise.
 
 ## Summary
 
