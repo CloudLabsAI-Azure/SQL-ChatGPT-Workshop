@@ -24,7 +24,7 @@ In this exercise, you will be setting up the Open AI resource and installtion of
 
    ![](images/select-openai.png "Azure OpenAI")
    
-1. In the Create Azure OpenAI pane under Basics tab, select the default subscription and select the existing **sql-chat-gpt-<inject key="Deployment ID" enableCopy="false"/>** resource group. Select **East US** as Region, enter Name as **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>** and select **Standard S0** for Pricing tier. Click on **Next**
+1. In the Create Azure OpenAI pane under Basics tab, select the default subscription and select the existing **sql-chat-gpt-<inject key="Deployment ID" enableCopy="false"/>** resource group. Select **<inject key="Region" enableCopy="false"/>** as Region, enter Name as **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>** and select **Standard S0** for Pricing tier. Click on **Next**
 
    ![](images/create-openai-basics.png "Azure OpenAI")
    
@@ -66,17 +66,17 @@ In this exercise, you will be setting up the Open AI resource and installtion of
 
    - The code begins with importing necessary libraries and dependencies such as Streamlit, Pandas, NumPy, Plotly, and others. It also imports custom modules like AnalyzeGPT, SQL_Query, and ChatGPT_Handler.
 
-   - The settings for the application are loaded from environment variables or default values using the load_setting function. These settings include Azure OpenAI deployment names, endpoint, API key, SQL engine, server, database, username, password, and SQLite database path. The settings can be modified through the sidebar in the Streamlit interface.
+   - The code code snippet implements a settings section where users can configure Azure OpenAI deployment settings and optional SQL Server settings. It provides input fields for entering deployment names, endpoint, API key, and SQL Server details. Users can save the settings and customize the functionality of the Streamlit application. The settings section enhances user experience by allowing them to tailor the application's behavior based on their specific requirements.
 
-   - The code defines functions for saving the OpenAI settings, toggling the display of settings in the sidebar, and loading the settings from the session. It also sets up the Azure OpenAI configuration using the provided settings.
+        ![](images/code01.png "Azure OpenAI")
 
-   - The Streamlit page configuration is set, and the sidebar is created using the st.sidebar context manager. It includes radio buttons for selecting the app type (SQL Query Writing Assistant or Data Analysis Assistant), a button for accessing settings, and a radio button for selecting the GPT model (ChatGPT or GPT-4). There is also an input area for asking questions and checkboxes for showing code and prompts.
+   - The code snippet creates a chat interface with two GPT models, "ChatGPT" and "GPT-4". It allows users to select a model, choose from FAQs specific to that model, and ask questions. The code also includes options to show the code and prompt, facilitating user interaction with the chat interface.
 
-   - Based on the selected app type and GPT model, the system message, few-shot examples, and extract patterns are defined. The extract patterns are used to extract relevant information from the model's response.
+        ![](images/code02.png "Azure OpenAI")
 
-   - The code provides a list of predefined FAQs for each GPT model. The selected question is passed to the respective assistant, which processes the question, extracts relevant information, executes SQL queries if necessary, and provides the results to the you. You can choose to display the code, prompt, and break down the execution steps.
-   
-   - In summary, the Python script creates a web application for SQL query writing assistance and data analysis assistance. It integrates with the OpenAI GPT-3.5 model for natural language processing tasks and allows you to interact with the application through a user-friendly interface.
+   -  The code snippet includes a "Submit" button that triggers a series of checks and actions. It verifies if the necessary deployment settings and SQL server settings are provided. If all requirements are met, it creates an SQL query tool and an analyzer object. Depending on the index value, it executes different methods to run queries and display results.
+
+         ![](images/code03.png "Azure OpenAI")   
       
 2. In the LabVM, navigate to Desktop and search for `cmd` in the search box then click on **Command Prompt**.
 
