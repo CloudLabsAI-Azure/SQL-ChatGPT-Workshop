@@ -1,4 +1,4 @@
-# SQL-ChatGPT-Workshops
+# SQL-ChatGPT-Workshop
 
 ## Overview
 
