@@ -109,11 +109,11 @@ In this exercise, you will be setting up the Open AI resource and installtion of
 
       ![](images/app-sub.png "Azure OpenAI")
 
-11. Please select an Azure location to use, select the location same as **Resource Group** location, and click on **Enter** button. You can change the location using up and down arrow.
+11. Please select an Azure location to use, select the location as **<inject key="Region" enableCopy="false"/>** location, and click on **Enter** button. You can change the location using up and down arrow.
 
       ![](images/app-location.png "Azure OpenAI")
 
-12. Once the deployment succeeded, you will see the following message **SUCCESS: Your application was provisioned and deployed to Azure**. The deployment might take 5 - 10 minutes.
+12. Once the deployment succeeded, you will see the following message **SUCCESS: Your application was provisioned and deployed to Azure**. The deployment might take 5 - 10 minutes. It is producing a web package file, then creating the resource and publishing the package to the app service.
 
       ![](images/app-deployment-output.png "Azure OpenAI")
 
