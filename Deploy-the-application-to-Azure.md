@@ -24,7 +24,7 @@ In this exercise, you will be setting up the Open AI resource and installtion of
 
    ![](images/select-openai.png "Azure OpenAI")
    
-1. In the Create Azure OpenAI pane under Basics tab, select the default subscription and select the existing **sql-chat-gpt-<inject key="Deployment ID" enableCopy="false"/>** resource group. Select **<inject key="Region" enableCopy="false"/>** as Region, enter Name as **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>** and select **Standard S0** for Pricing tier. Click on **Next**
+1. In the Create Azure OpenAI pane under Basics tab, select the default subscription and select the existing **sql-chat-gpt-<inject key="Deployment ID" enableCopy="false"/>** resource group. From the drop-down menu, choose any of the **available regions**, enter Name as **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>** and select **Standard S0** for Pricing tier. Click on **Next**
 
    ![](images/create-openai-basics.png "Azure OpenAI")
    
