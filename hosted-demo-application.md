@@ -42,4 +42,6 @@
     
     ![](images/nl-11.png "Natural Language Query")     
 
-9. The dropdown menu allows you to browse the rest of the **FAQs** by changing the Input value.     
+9. The dropdown menu allows you to browse the rest of the **FAQs** by changing the Input value.
+
+10. Hey, you've successfully completed the workshops     
