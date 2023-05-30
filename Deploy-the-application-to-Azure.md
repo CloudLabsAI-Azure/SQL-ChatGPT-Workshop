@@ -1,4 +1,4 @@
-# SQL-ChatGPT-Workshop
+# Azure OpenAI + NLP using ChatGPT on SQL Engine
 
 ## Overview
 
