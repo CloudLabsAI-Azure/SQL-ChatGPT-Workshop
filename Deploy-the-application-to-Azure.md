@@ -96,6 +96,9 @@ In this exercise, you will be setting up the Open AI resource and installtion of
 
    ```bash
    azd config set alpha.resourceGroupDeployments on
+   ```
+   
+   ```bash
    azd env new sql-chat-gpt-{DeploymentId}
    ```
 
