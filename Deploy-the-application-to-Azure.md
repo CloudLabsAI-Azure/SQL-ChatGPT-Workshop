@@ -5,59 +5,33 @@
 This application demonstrates the of Open AI (ChatGPT/GPT-4) to help answer business questions by performing advanced data analytic tasks on a business database. Examples of questions are:
 
  * Simple: Show me daily revenue trends in 2016 per region
- * More difficult: Is that true that top 20% customers generate 80% revenue in 2016?
- * Advanced: Forecast monthly revenue for next 12 months starting from June-2018
+ * More difficult: Is that true that the top 20% of customers generate 80% of revenue in 2016?
+ * Advanced: Forecast monthly revenue for the next 12 months starting from June-2018
 
-The application supports Python's built-in SQLITE as well as your own Microsoft SQL Server.
+The application supports Python's built-in SQLite as well as your own Microsoft SQL Server.
 
-## Exercise 1: Open AI setup and Installation of Application
+## Exercise 1: Open AI Setup and Installation of Application
 
-In this exercise, you will be setting up the Open AI resource and installtion of application to Azure.
+In this exercise, you will be setting up the Open AI resource and installation of the application to Azure.
 
-### Task 1: Create Open AI resource
+### Task 1: Review Open AI resource
 
 1. In the Azure portal, search for **Azure OpenAI** **(1)** in the top search box then select **Azure OpenAI** **(2)** under services.
 
    ![](images/search-openai.png "Azure OpenAI")
    
-1. From the **Cognitive Services | Azure OpenAI** pane, click on **Create**.
+1. From the **Cognitive Services | Azure OpenAI** pane, select **sql-chat-gpt-<inject key="Deployment ID" enableCopy="false"/>**.
 
-   ![](images/select-openai.png "Azure OpenAI")
+   ![](images/sql-openai.png "Azure OpenAI")
    
-1. In the Create Azure OpenAI pane under Basics tab, select the default subscription and select the existing **sql-chat-gpt-<inject key="Deployment ID" enableCopy="false"/>** resource group. From the drop-down menu, choose any of the **available regions**, enter Name as **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>** and select **Standard S0** for Pricing tier. Click on **Next**
+1. In the Azure OpenAI resource pane, click on **Go to Azure OpenAI Studio** it will navigate to **Azure AI Studio**.
 
-   ![](images/create-openai-basics.png "Azure OpenAI")
+   ![](images/lanch-openai.png "Azure OpenAI")
+      
+1. In the **Azure AI Studio**, select **Deployments (1)** under Management and verify that **gpt-35-turbo (1)** model is present with the deployment name as **sql-chatgpt-model**, review that the capacity of the module is set to **10K TPM**. Copy the OpenAI Model name into the text file for later use.
    
-1. Leave default settings for Network and Tags tabs, click on **Next**.
-
-1. In the Review + submit pane, verify that validation passed and then click on **Create**.
-
-   ![](images/create-openai-validate.png "Azure OpenAI")
+   ![](images/deployment-model.png "Azure OpenAI")
    
-1. Deployment will take 5 minutes to complete. Once the deployments is succeeded, click on **Go to resource**.
-
-   ![](images/gotoresource.png "Azure OpenAI")
-   
-1. In the Azure OpenAI resource pane, click on **Go to Azure OpenAI Studio** it will navaigate to **Azure AI Studio**.
-
-   ![](images/azureaIstudio1.png "Azure OpenAI")
-   
-1. In the **Azure AI Studio**, select **Deployments (1)** under Management and click on **+ Create new deployment (2)**    
-   
-   ![](images/openai-update1.png "Azure OpenAI")
-   
-1.  On the Deploy model pop-up, from the drop-down select **gpt-35-turbo (1)** for Select a Model, enter the deployment name as **sql-chatgpt-model (2)** then click on **Save (3)**. Copy the OpenAI Model name into the text file for later use.
-  
-      ![](images/model-sqlchatgpt.png "Azure OpenAI")
-
-1. Once the models are deployed, click on **sql-chatgpt-model (1)** from the **Deployments** page and click on **Edit deployment (2)**.
-
-    ![](images/model-editing-sqlchatgpt.png)  
-
-1. On the **Edit deployment** pop-up, expand **Advanced options (1)** and scale down the **Tokens per Minute Rate Limit (thousands) (2)** to **10k** and click **Save and close (3)**.
-
-     ![](images/model-scalling-sqlchatgpt.png) 
-
 1. Naviagte back to [Azure portal](http://portal.azure.com/), search and select **Azure OpenAI**, from the **Cognitive Services | Azure OpenAI pane**, select the **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
 
 1. Now select **Keys and Endpoints** **(1)** under Resource Management and click on **Show Keys** **(2)**. Copy the **KEY 1** **(3)** and **Endpoint** **(4)**, store it in a text file for later use.
