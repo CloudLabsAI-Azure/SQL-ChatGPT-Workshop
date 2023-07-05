@@ -44,6 +44,6 @@
    
 1. Verify the resources deployed in the resource group.
 
-   ![](images/verify-resources.png "Resource groups")
+   ![](images/resources.png "Resource groups")
    
 1. Now, click on **Next** from the lower right corner to move on to the next page.
