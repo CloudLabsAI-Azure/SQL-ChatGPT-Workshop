@@ -28,9 +28,9 @@ In this exercise, you will be setting up the Open AI resource and installation o
 
    ![](images/lanch-openai.png "Azure OpenAI")
       
-1. In the **Azure AI Studio**, select **Deployments (1)** under Management and verify that **gpt-35-turbo** model is present with the deployment name as **sql-chatgpt-model**, review that the capacity of the model is set to **10K TPM**. Copy the OpenAI Model name into the text file for later use.
+1. In the **Azure AI Studio**, select **Deployments (1)** under Management and verify that **gpt-35-turbo** model is present with the deployment name as **sql-chatgpt-model**, review that the capacity of the model is set to **15K TPM**. Copy the OpenAI Model name into the text file for later use.
    
-   ![](images/deployment-model.png "Azure OpenAI")
+   ![](images/openai-deployment-update.png "Azure OpenAI")
    
 1. Naviagte back to [Azure portal](http://portal.azure.com/), search and select **Azure OpenAI**, from the **Cognitive Services | Azure OpenAI pane**, select the **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
 
