@@ -20,7 +20,7 @@ In this exercise, you will be setting up the Open AI resource and installation o
 
    ![](images/search-openai.png "Azure OpenAI")
    
-1. From the **Cognitive Services | Azure OpenAI** pane, select **sql-chat-gpt-<inject key="Deployment ID" enableCopy="false"/>**.
+1. From the **Cognitive Services | Azure OpenAI** pane, select **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
 
    ![](images/sql-openai.png "Azure OpenAI")
    
@@ -34,7 +34,7 @@ In this exercise, you will be setting up the Open AI resource and installation o
    
 1. Naviagte back to [Azure portal](http://portal.azure.com/), search and select **Azure OpenAI**, from the **Cognitive Services | Azure OpenAI pane**, select the **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
 
-1. Now select **Keys and Endpoints** **(1)** under Resource Management and click on **Show Keys** **(2)**. Copy the **KEY 1** **(3)** and **Endpoint** **(4)**, store it in a text file for later use.
+1. Now select **Keys and Endpoints** **(1)** under Resource Management and click on **Show Keys** **(2)**. Copy the **KEY 1** **(3)** and **Endpoint** **(4)**, and store them in a text file for later use.
 
    ![](images/openai-keys-ep.png "Azure OpenAI")
       
@@ -44,7 +44,7 @@ In this exercise, you will be setting up the Open AI resource and installation o
 
    ![](images/file-select.png "Azure OpenAI")
 
-   - The provided code is a Streamlit application that consists of two main components: a SQL Query Writing Assistant and a Data Analysis Assistant. The application allows you to interact with a SQL database and perform various tasks.
+   - The provided code is a Streamlit application that consists of two main components: a SQL Query Writing Assistant and a Data Analysis Assistant. The application allows you to interact with an SQL database and perform various tasks.
 
    - The code begins with importing necessary libraries and dependencies such as Streamlit, Pandas, NumPy, Plotly, and others. It also imports custom modules like AnalyzeGPT, SQL_Query, and ChatGPT_Handler.
 
@@ -68,7 +68,7 @@ In this exercise, you will be setting up the Open AI resource and installation o
    cd C:\LabFiles\OpenAIWorkshop-Automation
    ```
 
-7. Run the below command to **Authenticate with Azure**. It will redirect to Azure authorize website, select your account.
+7. Run the below command to **Authenticate with Azure**. It will redirect to Azure authorize website, Select your account.
 
    ```bash
    azd auth login
@@ -90,11 +90,11 @@ In this exercise, you will be setting up the Open AI resource and installation o
    azd up
    ```
 
-10. Please select your Azure Subscription to use, enter `1` and click on **Enter** button.
+10. Please select your Azure Subscription to use, enter `1` and click on the **Enter** button.
 
       ![](images/app-sub.png "Azure OpenAI")
 
-11. Please select an Azure location to use, select the location as **<inject key="Region" enableCopy="false"/>** location, and click on **Enter** button. You can change the location using up and down arrow.
+11. Please select an Azure location to use, select the location as **<inject key="Region" enableCopy="false"/>** location, and click on the **Enter** button. You can change the location using the up and down arrow.
 
       ![](images/app-location.png "Azure OpenAI")
 
@@ -102,7 +102,7 @@ In this exercise, you will be setting up the Open AI resource and installation o
 
       ![](images/app-deployment-output.png "Azure OpenAI")
 
-13. Naviagte back to the Azure portal, search and select **App service**. Select the available web app which you have deployed in the previous step.
+13. Navigate back to the Azure portal, search and select **App service**. Select the available web app which you have deployed in the previous step.
 
       ![](images/app-service-select.png "Azure OpenAI")
 
@@ -116,5 +116,5 @@ In this exercise, you will be setting up the Open AI resource and installation o
 
 ## Summary
 
-In this exercise, you have completed OpenAI Setup and hosting a demo application to Azure. You will be exploring the demo application in the next exercise, click **Next** to continue with the lab.
+In this exercise, you have completed the OpenAI Setup and hosted a demo application to Azure. You will be exploring the demo application in the next exercise, click **Next** to continue with the lab.
    
