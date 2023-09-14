@@ -20,7 +20,7 @@ In this exercise, you will be setting up the Open AI resource and installation o
 
    ![](images/search-openai.png "Azure OpenAI")
    
-1. From the **Cognitive Services | Azure OpenAI** pane, select **sql-chat-gpt-<inject key="Deployment ID" enableCopy="false"/>**.
+1. From the **Cognitive Services | Azure OpenAI** pane, select **sql-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
 
    ![](images/sql-openai.png "Azure OpenAI")
    
