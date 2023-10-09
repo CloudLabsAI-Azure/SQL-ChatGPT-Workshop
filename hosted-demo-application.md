@@ -6,7 +6,7 @@
 
     ![](images/nl-set-credential.png "Natural Language Query")
 
-2. On the Natural Language Query page, select **SQL Query Writing Assistant (1)** from the left-side menu, from the **GPT module**, select **ChatGPT (2)**,  change the **FAQs** from the drop-down menu to select **Show me revenue by-product in ascending order (3)**, and and click on **Submit (4)**. According to the query, the **Output (5)** will be displayed. 
+2. On the Natural Language Query page, select **SQL Query Writing Assistant (1)** from the left-side menu, from the **GPT model**, select **ChatGPT (2)**,  change the **FAQs** from the drop-down menu to select **Show me revenue by-product in ascending order (3)**, and and click on **Submit (4)**. According to the query, the **Output (5)** will be displayed. 
 
     ![](images/nl-01.png "Natural Language Query")
     
@@ -24,15 +24,17 @@
 
     ![](images/nl-04.png "Natural Language Query")
 
-    ![](images/nl-05.png "Natural Language Query")
+    ![](images/z-03.png)
 
-7. Once you explore the output part, select the **FAQs** from the drop-down menu to select **Which products have the most seasonality in sales quantity in 2016? (1)**, and click on **Submit (2)**. According to the query, the **Output (3)** will be displayed.
+    ![](images/z-04.png)
+
+8. Once you explore the output part, select the **FAQs** from the drop-down menu to select **Which products have the most seasonality in sales quantity in 2016? (1)**, and click on **Submit (2)**. According to the query, the **Output (3)** will be displayed.
  
     ![](images/nl-06.png "Natural Language Query")
 
-    ![](images/nl-07.png "Natural Language Query") 
+    ![](images/z-05.png) 
 
-8. Once you explore the output part, select the **FAQs** from the drop-down menu to select **Which customers are most likely to churn? (1)**, and click on **Submit (2)**. According to the query, the **Output (3)** will be displayed.
+9. Once you explore the output part, select the **FAQs** from the drop-down menu to select **Which customers are most likely to churn? (1)**, and click on **Submit (2)**. According to the query, the **Output (3)** will be displayed.
 
     ![](images/nl-08.png "Natural Language Query")
 
@@ -42,6 +44,6 @@
     
     ![](images/nl-11.png "Natural Language Query")     
 
-9. The dropdown menu allows you to browse the rest of the **FAQs** by changing the Input value.
+10. The dropdown menu allows you to browse the rest of the **FAQs** by changing the Input value.
 
-10. Hey, you've successfully completed the workshops.     
+11. Hey, you've successfully completed the workshops.     
