@@ -20,9 +20,9 @@ In this exercise, you will be setting up the Open AI resource and installation o
 
    ![](images/search-openai.png "Azure OpenAI")
    
-1. From the **Cognitive Services | Azure OpenAI** pane, select **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
+1. From the **Azure AI Services | Azure OpenAI** pane, select **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
 
-   ![](images/sql-openai.png "Azure OpenAI")
+   ![](images/z-01.png)
    
 1. In the Azure OpenAI resource pane, click on **Go to Azure OpenAI Studio** it will navigate to **Azure AI Studio**.
 
@@ -32,11 +32,11 @@ In this exercise, you will be setting up the Open AI resource and installation o
    
    ![](images/openai-deployment-update.png "Azure OpenAI")
    
-1. Naviagte back to [Azure portal](http://portal.azure.com/), search and select **Azure OpenAI**, from the **Cognitive Services | Azure OpenAI pane**, select the **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
+1. Naviagte back to [Azure portal](http://portal.azure.com/), search and select **Azure OpenAI**, from the **Azure AI Services | Azure OpenAI pane**, select the **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
 
-1. Now select **Keys and Endpoints** **(1)** under Resource Management and click on **Show Keys** **(2)**. Copy the **KEY 1** **(3)** and **Endpoint** **(4)**, and store them in a text file for later use.
+1. Now select **Keys and Endpoints** **(1)** under Resource Management and click on **Show Keys** **(2)**. Copy the **KEY 1** **(3)** and **Language APIs Endpoint** **(4)**, and store them in a text file for later use.
 
-   ![](images/openai-keys-ep.png "Azure OpenAI")
+   ![](images/z-a02.png)
       
 ### Task 2: Deploy the application to Azure
 
@@ -102,7 +102,7 @@ In this exercise, you will be setting up the Open AI resource and installation o
 
       ![](images/app-deployment-output.png "Azure OpenAI")
 
-13. Navigate back to the Azure portal, search and select **App service**. Select the available web app which you have deployed in the previous step.
+13. Navigate back to the Azure portal, search and select **App service**. Select the available web app that you have deployed in the previous step.
 
       ![](images/app-service-select.png "Azure OpenAI")
 
