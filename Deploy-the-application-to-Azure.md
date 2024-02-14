@@ -34,9 +34,9 @@ In this exercise, you will be setting up the Open AI resource and installation o
    
 1. Naviagte back to [Azure portal](http://portal.azure.com/), search and select **Azure OpenAI**, from the **Azure AI Services | Azure OpenAI pane**, select the **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
 
-1. Now select **Keys and Endpoints** **(1)** under Resource Management and click on **Show Keys** **(2)**. Copy the **KEY 1** **(3)** and **Language APIs Endpoint** **(4)**, and store them in a text file for later use.
+1. Now select **Keys and Endpoints** **(1)** under Resource Management and click on **Show Keys** **(2)**. Copy the **KEY 1** **(3)** and **Endpoint** **(4)**, and store them in a text file for later use.
 
-   ![](images/z-a02.png)
+   ![](images/z-a02.1.png)
       
 ### Task 2: Deploy the application to Azure
 
