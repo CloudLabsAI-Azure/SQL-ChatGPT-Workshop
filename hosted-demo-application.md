@@ -46,4 +46,4 @@
 
 10. The dropdown menu allows you to browse the rest of the **FAQs** by changing the Input value.
 
-11. Hey, you've successfully completed the workshops.     
+## You have successfully completed the workshops.     
