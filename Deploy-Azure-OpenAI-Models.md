@@ -26,14 +26,14 @@ In this exercise, you will perform the following:
 
 3. Create an **Azure OpenAI** resource with the following settings:
    
-    - **Subscription**: Default - Pre-assigned subscription. (1)
-    - **Resource group**: OpenAI (2)
-    - **Region**: Sweden Central
+    - **Subscription**: Default-Pre-assigned subscription. (1)
+    - **Resource group**: sql-chat-gpt-<inject key="Deployment ID" enableCopy="false"></inject> (2)
+    - **Region**: Sweden Central (3)
     - **Name**: OpenAI-<inject key="Deployment ID" enableCopy="false"></inject> (4)
     - **Pricing tier**: Standard S0 (5)
     -  Click **Next** (6)
   
-      ![](images/image1012.png)
+      ![](images/image1012.1.png)
       
       >**Note:** Kindly select Sweden Central region only as the resources are region-specific.
 
@@ -70,50 +70,20 @@ Azure OpenAI provides a web-based portal named **Azure OpenAI Studio**, that you
 
    ![](images/openai-lab01_t2_s3.png "Create a new deployment")
 
-7. Within the **Deploy model** pop-up interface, enter the following details and then click on **Advanced options (3)** followed by scaling down the **Tokens per Minute Rate Limit (thousands) (4)**:
+7. Within the **Deploy model** pop-up interface, enter the following details and then click on **Advanced options (4)** followed by scaling down the **Tokens per Minute Rate Limit (thousands) (5)**:
     
-    - **Select a Model**: gpt-35-turbo-16k (1)
+    - **Select a Model**: gpt-35-turbo (1)
     - **Model version**: Auto-update to default (2)
-    - **Deployment name**: gpt-35-turbo-16k (3)
-    - **Tokens per Minute Rate Limit (thousands)**: 40K (4)
+    - **Deployment name**: gpt-35-turbo (3)
+    - **Tokens per Minute Rate Limit (thousands)**: 40K (5)
 
-      ![](images/d345.png "Deploy model configurations")
+      ![](images/d345.1.png "Deploy model configurations")
 
-8. Click on the **Create** (5) button to deploy a model that you will be playing around with as you proceed.
-
-9. In the **Deployments** page, click on **+ Create new deployment**.
-
-   ![](images/openai-lab01_t2_s3.png "Create a new deployment")
-
-10. Within the **Deploy model** pop-up interface, enter the following details and then click on **Advanced options (3)** followed by scaling down the **Tokens per Minute Rate Limit (thousands) (4)**:
-    
-    - **Select a Model**: text-embedding-ada-002 (1) 
-    - **Model version**: 2(Default) (2)
-    - **Deployment name**: text-embedding-ada-002 (3)
-    - **Tokens per Minute Rate Limit (thousands)**: 40K (4)
-  
-      ![](images/d1.png "Deploy model configurations")
-
-11. Click on the **Create** (5) button to deploy a model that you will be playing around with as you proceed.
-
-12. In the **Deployments** page, click on **+ Create new deployment**.
-
-      ![](images/openai-lab01_t2_s3.png "Create a new deployment")
-
-13. Within the **Deploy model** pop-up interface, enter the following details and then click on **Advanced options (3)** followed by scaling down the **Tokens per Minute Rate Limit (thousands) (4)**:
-    
-    - **Select a Model**: davinci-002 (1)
-    - **Model version**: (Default) (2)
-    - **Deployment name**: davinci-002 (3)
-    - **Tokens per Minute Rate Limit (thousands)**: 20K (4)
-  
-      ![](images/d2.1.png "Deploy model configurations")
-
-14. Click on the **Create** (5) button to deploy a model that you will be playing around with as you proceed.
+8. Click on the **Create** (6) button to deploy a model that you will be playing around with as you proceed.
 
     **Note:** Azure OpenAI includes multiple models, each optimized for a different balance of capabilities and performance. In this exercise, you'll use the **GPT-35-Turbo** model, which is a good general model for summarizing and generating natural language and code. For more information about the available models in Azure OpenAI, see [Models](https://learn.microsoft.com/azure/cognitive-services/openai/concepts/models) in the Azure OpenAI documentation.
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
   > - Navigate to the Lab Validation tab, from the upper right corner in the lab guide section.
   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
