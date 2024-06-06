@@ -100,7 +100,7 @@ In this exercise, you will be setting up the Open AI resource and installation o
 
 12. Once the deployment succeeded, you will see the following message **SUCCESS: Your application was provisioned and deployed to Azure**. The deployment might take 5 - 10 minutes. It is producing a web package file, then creating the resource and publishing the package to the app service.
 
-      ![](images/app-deployment-output.png "Azure OpenAI")
+      ![](images/Azure-OpenAI-NLP-using-ChatGPT-1.png "Azure OpenAI")
 
 13. Navigate back to the Azure portal, search and select **App service**. Select the available web app that you have deployed in the previous step.
 
