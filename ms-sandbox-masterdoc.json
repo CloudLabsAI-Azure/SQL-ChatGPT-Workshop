@@ -4,11 +4,11 @@
   "Language": "English",
   "Files": [
     {
-      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/SQL-ChatGPT-Workshop/main/getting-started.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SQL-ChatGPT-Workshop/main/getting-started.md",
       "Order": 1
     },
     {
-      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/SQL-ChatGPT-Workshop/main/Deploy-the-application-to-Azure.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SQL-ChatGPT-Workshop/main/Deploy-the-application-to-Azure.md",
       "Order": 2
     }
     
