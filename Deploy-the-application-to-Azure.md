@@ -1,16 +1,4 @@
-# Azure OpenAI + NLP using ChatGPT on SQL Engine
-
-## Overview
-
-This application demonstrates the of Open AI (ChatGPT/GPT-4) to help answer business questions by performing advanced data analytic tasks on a business database. Examples of questions are:
-
- * Simple: Show me daily revenue trends in 2016 per region
- * More difficult: Is that true that the top 20% of customers generate 80% of revenue in 2016?
- * Advanced: Forecast monthly revenue for the next 12 months starting from June-2018
-
-The application supports Python's built-in SQLite as well as your own Microsoft SQL Server.
-
-## Exercise 1: Open AI Setup and Installation of Application
+# Exercise 1: Open AI Setup and Installation of Application
 
 In this exercise, you will be setting up the Open AI resource and installation of the application to Azure.
 
