@@ -2,7 +2,15 @@
 
 In this exercise, you will be setting up the Open AI resource and installation of the application to Azure.
 
+## Objectives
+
+In this Exercise, you will complete the following tasks:
+- Task 1: Review Open AI resource
+- Task 2: Deploy the application to Azure
+
 ### Task 1: Review Open AI resource
+
+In this task, you will be reviewing the Open AI deployments.
 
 1. In the Azure portal, search for **Azure OpenAI** **(1)** in the top search box then select **Azure OpenAI** **(2)** under services.
 
@@ -27,6 +35,8 @@ In this exercise, you will be setting up the Open AI resource and installation o
    ![](images/z-a02.1.png)
       
 ### Task 2: Deploy the application to Azure
+
+In this task, you will be reviewing the code in the visual studio code and publishing the application to Azure App Services through CLI.
 
 1. In the LabVM, open **File Explorer** naviagte to the `C:\LabFiles\OpenAIWorkshop-Automation\scenarios\incubations\automating_analytics` **(1)** path, right click on **app.py (2)**, and select **Open with Code (3)**. Take a look at the code to see how it works.
 
