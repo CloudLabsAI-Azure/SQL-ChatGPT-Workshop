@@ -4,7 +4,7 @@
 
 ## Overview
 
-This application integrates OpenAI's ChatGPT (GPT-4) with advanced data analytics to address a wide range of business questions using a business database. It demonstrates the use of AI to extract valuable insights, including identifying trends, analyzing customer behaviors, and forecasting future outcomes. The application supports both Python's built-in SQLite and Microsoft SQL Server, providing flexibility in data source integration. By leveraging AI-driven analytics, this solution enables businesses to make data-driven decisions and gain deeper insights into their operations.
+This application integrates OpenAI's ChatGPT (GPT-4) with advanced data analytics to address a wide range of business questions using a business database. It demonstrates the use of AI to extract valuable insights, including identifying trends, analyzing customer behaviors, and forecasting future outcomes. By leveraging AI-driven analytics, this solution enables businesses to make data-driven decisions and gain deeper insights into their operations.
 
 ## Objective
 
