@@ -23,7 +23,12 @@ In this hands-on lab, you will deploy a Python or C# web application to Azure Ap
 
 ## Architecture Diagram
 
-![](/images/updated1ss.png)
+![](/images/updatedss1.png)
+
+## Explanation of Components
+- **Azure Open AI** : Azure OpenAI provides advanced natural language processing capabilities through models like ChatGPT. In this lab, it powers the Data Analysis Assistant and SQL Query Writing Assistant, enabling the application to analyze data, generate insights, and convert natural language inputs into SQL queries.
+- **Azure App Services** : Azure App Services is a fully managed platform for building, deploying, and scaling web applications. In this lab, it hosts the web application, providing a scalable and reliable environment for integrating with Azure OpenAI and delivering AI-driven functionalities to users.
+- **Visual Studio Code** : Visual Studio Code is a versatile code editor used for developing and managing the web application code in this lab.
 
 ## Getting Started with Lab
 
