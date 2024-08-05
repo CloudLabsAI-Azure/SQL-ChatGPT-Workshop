@@ -19,7 +19,7 @@ In this lab, you will perform:
 
 ## Architecture
 
-In this hands-on lab, the workflow involves publishing a python or csharp webapplication to Azure App Services via the CLI, and integrating it with an OpenAI resource. The deployed web application uses the OpenAI resource to handle and respond to user requests.
+In this hands-on lab, you will deploy a Python or C# web application to Azure App Services via the CLI and integrate it with an Azure OpenAI resource. The application features two tools: the Data Analysis Assistant, which uses AI to uncover insights and trends from data, and the SQL Query Writing Assistant, which helps users generate and optimize SQL queries from natural language inputs. You will configure the application to handle user requests, leveraging Azure OpenAI to deliver intelligent, data-driven responses and query support.
 
 ## Architecture Diagram
 
