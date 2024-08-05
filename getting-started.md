@@ -4,7 +4,7 @@
 
 ## Overview
 
-This application integrates Azure OpenAI's ChatGPT (GPT-4) with sophisticated data analytics to deliver comprehensive insights from a business database. It harnesses the power of AI to identify emerging trends, analyze customer behaviors, and predict future outcomes, equipping businesses with the tools they need to make strategic, data-driven decisions. By leveraging Azure App Services for reliable and scalable application hosting and Azure OpenAI for advanced natural language processing, this solution transforms complex data into actionable intelligence, offering deeper understanding and enhanced operational efficiency.
+In this lab, you will explore an application that integrates Azure OpenAI's ChatGPT with advanced data analytics to provide in-depth business insights. The application leverages AI to uncover emerging trends, analyze customer behaviors, and forecast future outcomes, enabling businesses to make informed, strategic decisions based on comprehensive data analysis. You will learn how to utilize Azure App Services for scalable and reliable application hosting and Azure OpenAI for cutting-edge natural language processing. This lab will guide you through transforming complex data into actionable intelligence, enhancing your understanding and operational efficiency.
 
 ## Objective
 
