@@ -73,6 +73,8 @@ In this hands-on lab, the workflow involves publishing a python or csharp webapp
    
 1. Now, click on **Next** from the lower right corner to move on to the next page.
 
+In this lab, you will review the Open AI deployments and review the code and publish it to Azure App Services. You will work with the hosted application and leverage AI tools to streamline data analysis and query generation
+
 ## Support Contact
 
 The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
