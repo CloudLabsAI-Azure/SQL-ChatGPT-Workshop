@@ -4,7 +4,7 @@
 
 ## Overview
 
-This application integrates OpenAI's ChatGPT (GPT-4) with advanced data analytics to address a wide range of business questions using a business database. It demonstrates the use of AI to extract valuable insights, including identifying trends, analyzing customer behaviors, and forecasting future outcomes. By leveraging AI-driven analytics, this solution enables businesses to make data-driven decisions and gain deeper insights into their operations.
+This application integrates Azure OpenAI's ChatGPT (GPT-4) with sophisticated data analytics to deliver comprehensive insights from a business database. It harnesses the power of AI to identify emerging trends, analyze customer behaviors, and predict future outcomes, equipping businesses with the tools they need to make strategic, data-driven decisions. By leveraging Azure App Services for reliable and scalable application hosting and Azure OpenAI for advanced natural language processing, this solution transforms complex data into actionable intelligence, offering deeper understanding and enhanced operational efficiency.
 
 ## Objective
 
