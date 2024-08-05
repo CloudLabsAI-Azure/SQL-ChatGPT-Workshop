@@ -2,6 +2,11 @@
 
 In this exercise, you will be working with the application that you hosted in the previous exercise and work with the Data Analysis Assistant and SQL Query Writing Assistant in the application.
 
+## Objectives
+
+In this Exercise, you will complete the following task:
+- Task 1: Analyzing Data Analysis Assistant and SQL Query Writing Assistant
+
 ### Task 1: Analyzing Data Analysis Assistant and SQL Query Writing Assistant
 
 1. When you're on the **Natural Language Query** page, click on **Settings (1)** from the left side menu. Enter **ChatGPT deployment name** as **sql-chatgpt-model (2)**, enter **GPT-4 deployment name** as **sql-chatgpt-model (3)**, enter **Azure OpenAI Endpoint** as **Endpoint (4)** which you have saved in previous task, and **Azure OpenAI Key** as **Key (5)** which you have saved in previous task have all been filled in. Click on **Submit(6)** to save the changes.
@@ -53,5 +58,8 @@ In this exercise, you will be working with the application that you hosted in th
     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
+
+## Summary
+In this exercise, you have worked with the application that you hosted in the previous exercise and utilized the Data Analysis Assistant and SQL Query Writing Assistant in the application.
 
 ## You have successfully completed the workshops.     

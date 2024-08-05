@@ -4,26 +4,26 @@
 
 ## Overview
 
-This application showcases the capabilities of OpenAI's ChatGPT (GPT-4) in addressing complex business questions through advanced data analytics on a business database. The tool can handle a range of queries, from simple data retrieval to sophisticated predictive analytics. Examples of questions it can answer include:
-
-- **Simple**: "Show me daily revenue trends in 2016 per region."
-
-- **Intermediate**: "Is it true that the top 20% of customers generated 80% of the revenue in 2016?"
-
-- **Advanced**: "Forecast monthly revenue for the next 12 months starting from June 2018."
-
-The application supports data analysis using both Python's built-in SQLite and external databases, such as Microsoft SQL Server. This versatility allows businesses to leverage their existing data infrastructure while gaining actionable insights through natural language queries.
+This application integrates Azure OpenAI's ChatGPT (GPT-4) with sophisticated data analytics to deliver comprehensive insights from a business database. It harnesses the power of AI to identify emerging trends, analyze customer behaviors, and predict future outcomes, equipping businesses with the tools they need to make strategic, data-driven decisions. By leveraging Azure App Services for reliable and scalable application hosting and Azure OpenAI for advanced natural language processing, this solution transforms complex data into actionable intelligence, offering deeper understanding and enhanced operational efficiency.
 
 ## Objective
 
 In this lab, you will perform:
 
-- **Deploy the Application to Azure** : Reviewing the Open AI resource created in Azure. Deploying the application to Azure App Service using command line interface.
-- **Working with hosted Application** : Working with the hosted Demo Application. Analyzing and working with the Data Analysis Assistant and SQL Query Writing Assistant.
+- **Open AI Setup and Installation of Application** : Learn to review and configure an OpenAI resource in Azure, followed by deploying an application to Azure App Service using the command-line interface. This exercise will cover setting up the resource, ensuring its proper integration, and successfully hosting the application in the cloud.
+- **Quick Start With Hosted Demo Application** : Learn to interact with the hosted Demo Application, utilizing the Data Analysis Assistant and SQL Query Writing Assistant. This exercise focuses on analyzing data and leveraging AI tools to streamline data analysis and query generation.
 
 ## Pre-requisites
 - **Fundamental Knowledge of Azure Services** : Knowing about some of the basic services like App Services.
 - **Basic Understanding Programming Language** : basic understanding of programming languages like python or csharp.
+
+## Architecture
+
+In this hands-on lab, the workflow involves publishing a python or csharp webapplication to Azure App Services via the CLI, and integrating it with an OpenAI resource. The deployed web application uses the OpenAI resource to handle and respond to user requests.
+
+## Architecture Diagram
+
+![](/images/updated1ss.png)
 
 ## Getting Started with Lab
 
@@ -74,6 +74,8 @@ In this lab, you will perform:
    ![](images/resources.png "Resource groups")
    
 1. Now, click on **Next** from the lower right corner to move on to the next page.
+
+In this lab, you will review the Open AI deployments and review the code and publish it to Azure App Services. You will work with the hosted application and leverage AI tools to streamline data analysis and query generation
 
 ## Support Contact
 
