@@ -4,7 +4,7 @@
 
 ## Overview
 
-This application integrates Azure OpenAI's ChatGPT (GPT-4) with sophisticated data analytics to deliver comprehensive insights from a business database. It harnesses the power of AI to identify emerging trends, analyze customer behaviors, and predict future outcomes, equipping businesses with the tools they need to make strategic, data-driven decisions. By leveraging Azure App Services for reliable and scalable application hosting and Azure OpenAI for advanced natural language processing, this solution transforms complex data into actionable intelligence, offering deeper understanding and enhanced operational efficiency.
+In this lab, you will explore an application that integrates Azure OpenAI's ChatGPT with advanced data analytics to provide in-depth business insights. The application leverages AI to uncover emerging trends, analyze customer behaviors, and forecast future outcomes, enabling businesses to make informed, strategic decisions based on comprehensive data analysis. You will learn how to utilize Azure App Services for scalable and reliable application hosting and Azure OpenAI for cutting-edge natural language processing. This lab will guide you through transforming complex data into actionable intelligence, enhancing your understanding and operational efficiency.
 
 ## Objective
 
@@ -19,11 +19,16 @@ In this lab, you will perform:
 
 ## Architecture
 
-In this hands-on lab, the workflow involves publishing a python or csharp webapplication to Azure App Services via the CLI, and integrating it with an OpenAI resource. The deployed web application uses the OpenAI resource to handle and respond to user requests.
+In this hands-on lab, you will deploy a Python or C# web application to Azure App Services via the CLI and integrate it with an Azure OpenAI resource. The application features two tools: the Data Analysis Assistant, which uses AI to uncover insights and trends from data, and the SQL Query Writing Assistant, which helps users generate and optimize SQL queries from natural language inputs. You will configure the application to handle user requests, leveraging Azure OpenAI to deliver intelligent, data-driven responses and query support.
 
 ## Architecture Diagram
 
-![](/images/updated1ss.png)
+![](/images/updatedss1.png)
+
+## Explanation of Components
+- **Azure Open AI** : Azure OpenAI provides advanced natural language processing capabilities through models like ChatGPT. In this lab, it powers the Data Analysis Assistant and SQL Query Writing Assistant, enabling the application to analyze data, generate insights, and convert natural language inputs into SQL queries.
+- **Azure App Services** : Azure App Services is a fully managed platform for building, deploying, and scaling web applications. In this lab, it hosts the web application, providing a scalable and reliable environment for integrating with Azure OpenAI and delivering AI-driven functionalities to users.
+- **Visual Studio Code** : Visual Studio Code is a versatile code editor used for developing and managing the web application code in this lab.
 
 ## Getting Started with Lab
 
