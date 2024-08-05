@@ -59,4 +59,7 @@ In this Exercise, you will complete the following task:
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
 
+## Summary
+In this exercise, you have worked with the application that you hosted in the previous exercise and utilized the Data Analysis Assistant and SQL Query Writing Assistant in the application.
+
 ## You have successfully completed the workshops.     
