@@ -8,7 +8,7 @@ In this lab, you will explore an application that integrates Azure OpenAI's Chat
 
 ## Objective
 
-In this lab, You will explore setting up OpenAI in Azure, deploying to Azure App Service, and utilizing AI-driven tools for effective data analysis and SQL query generation :
+Understand how to set up OpenAI in Azure, deploy it to Azure App Service, and leverage AI-driven tools for effective data analysis and SQL query generation. By the end of this lab, participants will be able to : 
 
 - **Open AI Setup and Installation of Application** : Learn to review and configure an OpenAI resource in Azure, followed by deploying an application to Azure App Service using the command-line interface. This exercise will cover setting up the resource, ensuring its proper integration, and successfully hosting the application in the cloud.
 - **Quick Start With Hosted Demo Application** : Learn to interact with the hosted Demo Application, utilizing the Data Analysis Assistant and SQL Query Writing Assistant. This exercise focuses on analyzing data and leveraging AI tools to streamline data analysis and query generation.
