@@ -1,5 +1,7 @@
 # Exercise 2: Quick Start With Hosted Demo Application.
 
+## Estimated Duration : 2 Hours
+
 In this exercise, you will be working with the application that you hosted in the previous exercise and work with the Data Analysis Assistant and SQL Query Writing Assistant in the application.
 
 ## Objectives

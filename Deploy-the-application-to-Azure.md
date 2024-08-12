@@ -1,5 +1,7 @@
 # Exercise 1: Open AI Setup and Installation of Application
 
+## Estimated Duration : 2 Hours
+
 In this exercise, you will be setting up the Open AI resource and installation of the application to Azure.
 
 ## Objectives
