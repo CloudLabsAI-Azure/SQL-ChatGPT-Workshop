@@ -89,4 +89,15 @@ Azure OpenAI provides a web-based portal named **Azure OpenAI Studio**, that you
   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
   > - If you need any assistance, please contact us at labs-support@spektrasystems.com.
 
+## Review
+
+In this lab we have completed the following:
+
+- Deployed Azure OpenAI Model.
+- Deployed a model
+
+## Summary
+
+
+
 ## You have successfully completed the lab.
