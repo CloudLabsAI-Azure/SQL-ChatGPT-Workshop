@@ -71,13 +71,17 @@ Azure OpenAI provides a web-based portal named **Azure OpenAI Studio**, that you
    ![](images/openai-lab01_t2_s3.png "Create a new deployment")
 
 7. Within the **Deploy model** pop-up interface, enter the following details and then click on **Advanced options (4)** followed by scaling down the **Tokens per Minute Rate Limit (thousands) (5)**:
-    
-    - **Select a Model**: gpt-35-turbo (1)
-    - **Model version**: Auto-update to default (2)
-    - **Deployment name**: gpt-35-turbo (3)
+     
+    - **Deployment name**: gpt-35-turbo (1)
+    - **Select a Model**: gpt-35-turbo (2)
+    - **Model version**: Select Auto-update to default (3)
+    - **Deployment Type**: Standard (4)
     - **Tokens per Minute Rate Limit (thousands)**: 40K (5)
+    - **Content Filter**: Default (6)
+    -  **Enable Dynamic Quota**: Enabled (7)
+    -  Click **Create** (8)
 
-      ![](images/d345.1.png "Deploy model configurations")
+      ![](images/dp02.png)
 
 8. Click on the **Create** (6) button to deploy a model that you will be playing around with as you proceed.
 
