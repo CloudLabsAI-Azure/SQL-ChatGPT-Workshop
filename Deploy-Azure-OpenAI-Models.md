@@ -98,6 +98,6 @@ In this lab we have completed the following:
 
 ## Summary
 
-
+In this lab, you deployed an Azure OpenAI model using Azure OpenAI Studio, created and configured a deployment resource, and deployed the GPT-35-Turbo model
 
 ## You have successfully completed the lab.
