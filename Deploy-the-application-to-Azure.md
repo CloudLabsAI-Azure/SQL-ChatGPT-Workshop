@@ -68,13 +68,13 @@ In this task, you will be reviewing the code in the visual studio code and publi
    cd C:\LabFiles\OpenAIWorkshop-Automation
    ```
 
-7. Run the below command to **Authenticate with Azure**. It will redirect to Azure authorize website, Select your account.
+7. Run the below command to **Authenticate with Azure**. It will redirect to Azure authorize website, select your account.
 
    ```bash
    azd auth login
    ```
 
-  >**Note:** The warnings can be ignored.
+    >**Note:** The warnings can be ignored.
 
 8. Run the below command to setup the resource group deployment and **Create a new environment**. Make sure to replace `{DeploymentId}` with **<inject key="Deployment ID" enableCopy="true"/>** in the below command.
 
