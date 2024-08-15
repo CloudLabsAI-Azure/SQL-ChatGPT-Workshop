@@ -110,7 +110,7 @@ In this task, you will be reviewing the code in the visual studio code and publi
 
       ![](images/webapp.png "Azure OpenAI")
       
-      ![](images/webapp1.png "Azure OpenAI")
+      ![](images/webapp2.png "Azure OpenAI")
 
 15. Click the **Next** button located in the bottom right corner of this lab guide to continue with the next exercise.
 
