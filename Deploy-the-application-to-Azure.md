@@ -74,6 +74,8 @@ In this task, you will be reviewing the code in the visual studio code and publi
    azd auth login
    ```
 
+  >**Note:** The warnings can be ignored.
+
 8. Run the below command to setup the resource group deployment and **Create a new environment**. Make sure to replace `{DeploymentId}` with **<inject key="Deployment ID" enableCopy="true"/>** in the below command.
 
    ```bash
@@ -95,8 +97,6 @@ In this task, you will be reviewing the code in the visual studio code and publi
       ![](images/app-sub.png "Azure OpenAI")
 
 11. Please select an Azure location to use, select the location as **<inject key="Region" enableCopy="false"/>** location, and click on the **Enter** button. You can change the location using the up and down arrow.
-
-      ![](images/app-location.png "Azure OpenAI")
 
 12. Once the deployment succeeded, you will see the following message **SUCCESS: Your application was provisioned and deployed to Azure**. The deployment might take 5 - 10 minutes. It is producing a web package file, then creating the resource and publishing the package to the app service.
 
