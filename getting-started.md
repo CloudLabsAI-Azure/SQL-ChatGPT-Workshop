@@ -1,6 +1,6 @@
 # Azure OpenAI + NLP using ChatGPT on SQL Engine
 
-## Overall Estimated Duration: 1 hour 30 minutes
+### Overall Estimated Duration: 1 hour 30 minutes
 
 ## Overview
 
@@ -14,6 +14,9 @@ Understand how to set up OpenAI in Azure, deploy it to Azure App Service, and le
 - **Quick Start With Hosted Demo Application** : Learn to interact with the hosted Demo Application, utilizing the Data Analysis Assistant and SQL Query Writing Assistant. This exercise focuses on analyzing data and leveraging AI tools to streamline data analysis and query generation.
 
 ## Pre-requisites
+
+Participants should have:
+
 - **Fundamental Knowledge of Azure Services** : Knowing about some of the basic services like App Services.
 - **Basic Understanding Programming Language** : basic understanding of programming languages like python or csharp.
 
@@ -26,21 +29,44 @@ In this hands-on lab, you will deploy a Python or C# web application to Azure Ap
 ![](/images/updatedss1.png)
 
 ## Explanation of Components
+
+The architecture for this lab involves the following key components:
+
 - **Azure Open AI** : Azure OpenAI provides advanced natural language processing capabilities through models like ChatGPT. In this lab, it powers the Data Analysis Assistant and SQL Query Writing Assistant, enabling the application to analyze data, generate insights, and convert natural language inputs into SQL queries.
 - **Azure App Services** : Azure App Services is a fully managed platform for building, deploying, and scaling web applications. In this lab, it hosts the web application, providing a scalable and reliable environment for integrating with Azure OpenAI and delivering AI-driven functionalities to users.
 - **Visual Studio Code** : Visual Studio Code is a versatile code editor used for developing and managing the web application code in this lab.
 
-## Getting Started with Lab
+## Getting Started with the Lab
 
-1. Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the bottom of the lab guide to switch to different exercises of the lab guide.
-
-   ![](images/getstartpage-01.png)
+Welcome to your SQL-ChatGPT-Workshop workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
  
-1. To get the lab environment details, you can select the **Environment Details** tab. Additionally, the credentials will also be emailed to your registered email address. You can also open the Lab Guide in a separate and full window by selecting the **Split Window** from the lower right corner. Also, you can start, stop and restart virtual machines from the **Resources** tab.
-
-   ![](images/getstartpage-02.png "Enter Email")
+## Accessing Your Lab Environment
  
-   > You will see the SUFFIX value on the **Environment Details** tab, use it wherever you see SUFFIX or DeploymentID in lab steps.
+Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
+
+  ![](images/nlp(1).png)
+
+### Virtual Machine & Lab Guide
+ 
+Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
+ 
+## Exploring Your Lab Resources
+ 
+To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
+
+  ![](images/miw(3).png)
+ 
+## Utilizing the Split Window Feature
+ 
+For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
+
+  ![](images/POWER(1).png)
+ 
+## Managing Your Virtual Machine
+ 
+Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+ 
+  ![](images/res.png)
  
 ## Login to Azure Portal
 
@@ -59,6 +85,12 @@ In this hands-on lab, you will deploy a Python or C# web application to Azure Ap
    * **Password**: <inject key="AzureAdUserPassword"></inject>
    
       ![](images/signin-pword.png "Enter Password")
+
+1. If you see the pop-up Action Required, click Ask Later.
+
+   ![](images/asklater.png)
+
+   >**NOTE:** Do not enable MFA, select **Ask Later**.
      
 1. If you see the pop-up **Stay Signed in?**, select **No**.
 
@@ -77,8 +109,6 @@ In this hands-on lab, you will deploy a Python or C# web application to Azure Ap
 1. Verify the resources deployed in the resource group.
 
    ![](images/resources.png "Resource groups")
-   
-1. Now, click on **Next** from the lower right corner to move on to the next page.
 
 In this lab, you will review the Open AI deployments and review the code and publish it to Azure App Services. You will work with the hosted application and leverage AI tools to streamline data analysis and query generation
 
@@ -91,4 +121,8 @@ Learner Support Contacts:
 - Email Support: labs-support@spektrasystems.com
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
-## Happy Learning!!
+Now, click on **Next** from the lower right corner to move on to the next page.
+
+![](images/lab-next.png)
+
+### Happy Learning!!
