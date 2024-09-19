@@ -30,17 +30,37 @@ In this hands-on lab, you will deploy a Python or C# web application to Azure Ap
 - **Azure App Services** : Azure App Services is a fully managed platform for building, deploying, and scaling web applications. In this lab, it hosts the web application, providing a scalable and reliable environment for integrating with Azure OpenAI and delivering AI-driven functionalities to users.
 - **Visual Studio Code** : Visual Studio Code is a versatile code editor used for developing and managing the web application code in this lab.
 
-## Getting Started with Lab
+## Getting Started with the Lab
 
-1. Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the bottom of the lab guide to switch to different exercises of the lab guide.
-
-   ![](images/getstartpage-01.png)
+Welcome to your SQL-ChatGPT-Workshop workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
  
-1. To get the lab environment details, you can select the **Environment Details** tab. Additionally, the credentials will also be emailed to your registered email address. You can also open the Lab Guide in a separate and full window by selecting the **Split Window** from the lower right corner. Also, you can start, stop and restart virtual machines from the **Resources** tab.
-
-   ![](images/getstartpage-02.png "Enter Email")
+## Accessing Your Lab Environment
  
-   > You will see the SUFFIX value on the **Environment Details** tab, use it wherever you see SUFFIX or DeploymentID in lab steps.
+Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
+
+  ![](images/nlp(1).png)
+
+### Virtual Machine & Lab Guide
+ 
+Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
+ 
+## Exploring Your Lab Resources
+ 
+To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
+
+  ![](images/miw(3).png)
+ 
+## Utilizing the Split Window Feature
+ 
+For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
+
+  ![](images/POWER(1).png)
+ 
+## Managing Your Virtual Machine
+ 
+Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+ 
+  ![](images/res.png)
  
 ## Login to Azure Portal
 
@@ -59,6 +79,12 @@ In this hands-on lab, you will deploy a Python or C# web application to Azure Ap
    * **Password**: <inject key="AzureAdUserPassword"></inject>
    
       ![](images/signin-pword.png "Enter Password")
+
+1. If you see the pop-up Action Required, click Ask Later.
+
+   ![](images/asklater.png)
+
+   >**NOTE:** Do not enable MFA, select **Ask Later**.
      
 1. If you see the pop-up **Stay Signed in?**, select **No**.
 
