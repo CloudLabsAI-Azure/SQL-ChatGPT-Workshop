@@ -1,6 +1,6 @@
 # Exercise 1: Open AI Setup and Installation of Application
 
-## Estimated Duration : 1 Hour
+### Estimated Duration : 1 Hour
 
 In this exercise, you will be setting up the Open AI resource and installation of the application to Azure.
 
@@ -10,7 +10,7 @@ In this Exercise, you will complete the following tasks:
 - Task 1: Review Open AI resource
 - Task 2: Deploy the application to Azure
 
-### Task 1: Review Open AI resource
+## Task 1: Review Open AI resource
 
 In this task, you will be reviewing the Open AI deployments.
 
@@ -36,7 +36,7 @@ In this task, you will be reviewing the Open AI deployments.
 
    ![](images/z-a02.1.png)
       
-### Task 2: Deploy the application to Azure
+## Task 2: Deploy the application to Azure
 
 In this task, you will be reviewing the code in the visual studio code and publishing the application to Azure App Services through CLI.
 
@@ -118,3 +118,4 @@ In this task, you will be reviewing the code in the visual studio code and publi
 
 In this exercise, you have completed the OpenAI Setup and hosted a demo application to Azure. You will be exploring the demo application in the next exercise, click **Next** to continue with the lab.
    
+### You have successfully completed the lab
