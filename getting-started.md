@@ -1,6 +1,6 @@
 # Azure OpenAI + NLP using ChatGPT on SQL Engine
 
-## Overall Estimated Duration: 1 hour 30 minutes
+### Overall Estimated Duration: 1 hour 30 minutes
 
 ## Overview
 
@@ -14,6 +14,9 @@ Understand how to set up OpenAI in Azure, deploy it to Azure App Service, and le
 - **Quick Start With Hosted Demo Application** : Learn to interact with the hosted Demo Application, utilizing the Data Analysis Assistant and SQL Query Writing Assistant. This exercise focuses on analyzing data and leveraging AI tools to streamline data analysis and query generation.
 
 ## Pre-requisites
+
+Participants should have:
+
 - **Fundamental Knowledge of Azure Services** : Knowing about some of the basic services like App Services.
 - **Basic Understanding Programming Language** : basic understanding of programming languages like python or csharp.
 
@@ -26,6 +29,9 @@ In this hands-on lab, you will deploy a Python or C# web application to Azure Ap
 ![](/images/updatedss1.png)
 
 ## Explanation of Components
+
+The architecture for this lab involves the following key components:
+
 - **Azure Open AI** : Azure OpenAI provides advanced natural language processing capabilities through models like ChatGPT. In this lab, it powers the Data Analysis Assistant and SQL Query Writing Assistant, enabling the application to analyze data, generate insights, and convert natural language inputs into SQL queries.
 - **Azure App Services** : Azure App Services is a fully managed platform for building, deploying, and scaling web applications. In this lab, it hosts the web application, providing a scalable and reliable environment for integrating with Azure OpenAI and delivering AI-driven functionalities to users.
 - **Visual Studio Code** : Visual Studio Code is a versatile code editor used for developing and managing the web application code in this lab.
@@ -103,8 +109,6 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 1. Verify the resources deployed in the resource group.
 
    ![](images/resources.png "Resource groups")
-   
-1. Now, click on **Next** from the lower right corner to move on to the next page.
 
 In this lab, you will review the Open AI deployments and review the code and publish it to Azure App Services. You will work with the hosted application and leverage AI tools to streamline data analysis and query generation
 
@@ -117,4 +121,8 @@ Learner Support Contacts:
 - Email Support: labs-support@spektrasystems.com
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
-## Happy Learning!!
+Now, click on **Next** from the lower right corner to move on to the next page.
+
+![](images/lab-next.png)
+
+### Happy Learning!!
