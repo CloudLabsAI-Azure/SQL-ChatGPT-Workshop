@@ -24,7 +24,7 @@ In this task, you will be reviewing the Open AI deployments.
    
 1. In the Azure OpenAI resource pane, click on **Go to Azure OpenAI Studio** it will navigate to **Azure AI Studio**.
 
-   ![](images/goto-1.png "Azure OpenAI")
+   ![](images/goto-1-1.png "Azure OpenAI")
       
 1. In the **Azure AI Studio**, select **Deployments (1)** under Management and verify that **gpt-35-turbo** model is present with the deployment name as **sql-chatgpt-model**, review that the capacity of the model is set to **15K TPM**. Copy the OpenAI Model name into the text file for later use.
    
