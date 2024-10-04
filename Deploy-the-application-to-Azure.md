@@ -16,25 +16,25 @@ In this task, you will be reviewing the Open AI deployments.
 
 1. In the Azure portal, search for **Azure OpenAI** **(1)** in the top search box then select **Azure OpenAI** **(2)** under services.
 
-   ![](images/search-openai.png "Azure OpenAI")
+   ![](images/search_openai.png "Azure OpenAI")
    
 1. From the **Azure AI Services | Azure OpenAI** pane, select **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
 
-   ![](images/z-01.png)
+   ![](images/sql_openai-1.png)
    
 1. In the Azure OpenAI resource pane, click on **Go to Azure OpenAI Studio** it will navigate to **Azure AI Studio**.
 
-   ![](images/lanch-openai.png "Azure OpenAI")
+   ![](images/goto-1-1.png "Azure OpenAI")
       
 1. In the **Azure AI Studio**, select **Deployments (1)** under Management and verify that **gpt-35-turbo** model is present with the deployment name as **sql-chatgpt-model**, review that the capacity of the model is set to **15K TPM**. Copy the OpenAI Model name into the text file for later use.
    
-   ![](images/openai-deployment-update.png "Azure OpenAI")
+   ![](images/deployments_1.png "Azure OpenAI")
    
 1. Naviagte back to [Azure portal](http://portal.azure.com/), search and select **Azure OpenAI**, from the **Azure AI Services | Azure OpenAI pane**, select the **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
 
 1. Now select **Keys and Endpoints** **(1)** under Resource Management and click on **Show Keys** **(2)**. Copy the **KEY 1** **(3)** and **Endpoint** **(4)**, and store them in a text file for later use.
 
-   ![](images/z-a02.1.png)
+   ![](images/keys-1.png)
       
 ## Task 2: Deploy the application to Azure
 
