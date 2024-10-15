@@ -114,6 +114,13 @@ In this task, you will be reviewing the code in the visual studio code and publi
 
 15. Click the **Next** button located in the bottom right corner of this lab guide to continue with the next exercise.
 
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   - If you receive a success message, you can proceed to the next task.
+   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+     
+   <validation step="d47c14c0-5c3c-489c-9872-959b900195b5" />
+   
 ## Summary
 
 In this exercise, you have completed the OpenAI Setup and hosted a demo application to Azure. You will be exploring the demo application in the next exercise, click **Next** to continue with the lab.
