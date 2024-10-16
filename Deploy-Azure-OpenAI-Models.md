@@ -18,22 +18,22 @@ In this exercise, you will perform the following:
 
 1. In the **Azure portal**, search for **OpenAI** and select **Azure OpenAI**.
 
-   ![](images/openai8.png)
+   ![](images/sql1.png)
 
-2. On **Azure AI Services | Azure OpenAI** blade, click on **Create**.
+1. On **Azure AI Services | Azure OpenAI** blade, click on **Create**.
 
-   ![](images/openai_create.png)
+   ![](images/sql2.png)
 
-3. Create an **Azure OpenAI** resource with the following settings:
+1. Create an **Azure OpenAI** resource with the following settings:
    
-    - **Subscription**: Default-Pre-assigned subscription. (1)
-    - **Resource group**: sql-chat-gpt-<inject key="Deployment ID" enableCopy="false"></inject> (2)
-    - **Region**: Sweden Central (3)
-    - **Name**: OpenAI-<inject key="Deployment ID" enableCopy="false"></inject> (4)
-    - **Pricing tier**: Standard S0 (5)
+    - **Subscription**: Default-Pre-assigned subscription. **(1)**
+    - **Resource group**: sql-chat-gpt-<inject key="Deployment ID" enableCopy="false"></inject> **(2)**
+    - **Region**: Sweden Central **(3)**
+    - **Name**: OpenAI-<inject key="Deployment ID" enableCopy="false"></inject> **(4)**
+    - **Pricing tier**: Standard S0 **(5)**
     -  Click **Next** (6)
   
-      ![](images/image1012.1.png)
+      ![](images/sql3.png)
       
       >**Note:** Kindly select Sweden Central region only as the resources are region-specific.
 
@@ -53,38 +53,41 @@ Azure OpenAI provides a web-based portal named **Azure OpenAI Studio**, that you
 
 1. In the **Azure portal**, search for **OpenAI** and select **Azure OpenAI**.
 
-   ![](images/openai8.png)
+   ![](images/sql1.png)
 
-2. On **Azure AI Services | Azure OpenAI** blade, select **OpenAI-<inject key="Deployment ID" enableCopy="false"></inject>**
+1. On **Azure AI Services | Azure OpenAI** blade, select **OpenAI-<inject key="Deployment ID" enableCopy="false"></inject>**
 
-   ![](images/img2.png)
+   ![](images/sql4.png)
 
-3. In the Azure OpenAI resource pane, click on **Go to Azure OpenAI Studio** it will navigate to **Azure AI Studio**.
+1. In the Azure OpenAI resource pane, click on **Go to Azure OpenAI Studio** it will navigate to **Azure AI Studio**.
 
-   ![](images/openai_studio.png)
+   ![](images/sql5.png)
    
-5. In **Welcome to Azure OpenAI Service** page, click on **Create new deployment**.
+1. On the **Azure OpenAI Service** page, click on **Deployment (1)** from the left naviagtion pane, select the **+ Deploy model (2)** drop down and then click on **Deploy base model (3)**
 
-   ![](images/openai-lab01_t2_s2.png "Create a new deployment")
+   ![](images/sql6.png "Create a new deployment")
 
-6. In the **Deployments** page, click on **+ Create new deployment**.
+1. On the **Select a model** page, search and select **gpt-35-turbo (1)** and click on **Confirm (2).**
 
-   ![](images/openai-lab01_t2_s3.png "Create a new deployment")
+   ![](images/sql7.png "Create a new deployment")
 
-7. Within the **Deploy model** pop-up interface, enter the following details and then click on **Advanced options (4)** followed by scaling down the **Tokens per Minute Rate Limit (thousands) (5)**:
+1. On the **Deploy model gpt-35-turbo** pop-up interface, click on **Customize (1)**
+   
+   ![](images/sql8.png "Create a new deployment")
+
+1. Within the **Deploy model gpt-35-turbo** pop-up interface, enter the following details and then click on **Deploy (7)** button to deploy a model that you will be playing around with as you proceed.
      
-    - **Deployment name**: gpt-35-turbo (1)
-    - **Select a Model**: gpt-35-turbo (2)
-    - **Model version**: Select Auto-update to default (3)
-    - **Deployment Type**: Standard (4)
-    - **Tokens per Minute Rate Limit (thousands)**: 40K (5)
-    - **Content Filter**: Default (6)
-    -  **Enable Dynamic Quota**: Enabled (7)
-    -  Click **Create** (8)
+    - **Deployment name**: gpt-35-turbo **(1)**
+    - **Deployment Type**: Standard **(2)**
+    - **Model version**: Select Auto-update to default **(3)**
+    - **Tokens per Minute Rate Limit (thousands)**: 40K **(4)**
+    - **Content Filter**: Default **(5)**
+    -  **Enable Dynamic Quota**: Enabled **(6)**
+   
 
-      ![](images/dp02.png)
+      ![](images/sql9.png)
 
-8. Click on the **Create** (6) button to deploy a model that you will be playing around with as you proceed.
+   
 
     **Note:** Azure OpenAI includes multiple models, each optimized for a different balance of capabilities and performance. In this exercise, you'll use the **GPT-35-Turbo** model, which is a good general model for summarizing and generating natural language and code. For more information about the available models in Azure OpenAI, see [Models](https://learn.microsoft.com/azure/cognitive-services/openai/concepts/models) in the Azure OpenAI documentation.
 
