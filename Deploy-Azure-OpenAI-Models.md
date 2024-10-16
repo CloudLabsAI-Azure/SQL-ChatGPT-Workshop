@@ -16,6 +16,8 @@ In this exercise, you will perform the following:
 
 ## Task 1: Deploy Azure OpenAI Model.
 
+In this task, you will deploy an Azure OpenAI model by setting up an instance, configuring resources, and making the model ready for use in Azure.
+
 1. In the **Azure portal**, search for **OpenAI** and select **Azure OpenAI**.
 
    ![](images/sql1.png)
