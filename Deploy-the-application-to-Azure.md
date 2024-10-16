@@ -116,7 +116,6 @@ In this task, you will be reviewing the code in the visual studio code and publi
 
       ![](images/sql14.png "Azure OpenAI")
 
-
 1. Select the available web app that you have deployed in the previous step.
 
       ![](images/app-service-select.png "Azure OpenAI")
