@@ -20,7 +20,7 @@ In this task, you will be reviewing the Open AI deployments.
    
 1. From the **Azure AI Services | Azure OpenAI** pane, select **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
 
-   ![](images/sql_openai-1.png)
+   ![](images/sql_openai1.png)
    
 1. In the Azure OpenAI resource pane, click on **Go to Azure OpenAI Studio** it will navigate to **Azure AI Studio**.
 
