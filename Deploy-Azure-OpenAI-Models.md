@@ -20,7 +20,7 @@ In this task, you will deploy an Azure OpenAI model by setting up an instance, c
 
 1. In the **Azure portal**, search for **OpenAI** and select **Azure OpenAI**.
 
-   ![](images/sql1.png)
+   ![](images/sql-1.png)
 
 1. On **Azure AI Services | Azure OpenAI** blade, click on **Create**.
 
@@ -35,7 +35,7 @@ In this task, you will deploy an Azure OpenAI model by setting up an instance, c
     - **Pricing tier**: Standard S0 **(5)**
     -  Click **Next** (6)
   
-      ![](images/sql3.png)
+      ![](images/sql-3.png)
       
       >**Note:** Kindly select Sweden Central region only as the resources are region-specific.
 
