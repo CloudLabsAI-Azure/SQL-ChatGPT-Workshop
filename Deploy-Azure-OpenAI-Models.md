@@ -64,10 +64,14 @@ Azure OpenAI provides a web-based portal named **Azure OpenAI Studio**, that you
 1. In the Azure OpenAI resource pane, click on **Go to Azure OpenAI Studio** it will navigate to **Azure AI Studio**.
 
    ![](images/sql5.png)
-   
+  
 1. On the **Azure OpenAI Service** page, click on **Deployment (1)** from the left naviagtion pane, select the **+ Deploy model (2)** drop down and then click on **Deploy base model (3)**
 
    ![](images/sql6.png "Create a new deployment")
+
+   > **Note**: Click on the **Expand** button, if you dont see the left side navigation pane.
+
+   ![](images/code2.png "Keys and Endpoints")             
 
 1. On the **Select a model** page, search and select **gpt-35-turbo (1)** and click on **Confirm (2).**
 
