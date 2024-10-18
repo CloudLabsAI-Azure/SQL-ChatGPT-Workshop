@@ -38,8 +38,6 @@ In this task, you will be reviewing the Open AI deployments.
 
    > **Note**: If you dont see the Left side Navigation pane, click on the three horizontal line in the top left corner.
 
-   ![](images/code1.png "Keys and Endpoints")           
-   
       
 ## Task 2: Deploy the application to Azure
 
