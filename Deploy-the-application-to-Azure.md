@@ -22,17 +22,17 @@ In this task, you will be reviewing the Open AI deployments.
 
    ![](images/sql_openai1.png)
    
-1. In the Azure OpenAI resource pane, click on **Go to Azure OpenAI Studio** it will navigate to **Azure AI Studio**.
+1. In the Azure OpenAI resource pane, click on **Go to Azure AI Foundry portal** it will navigate to **Azure AI Foundry portal**.
 
-   ![](images/goto-1-1.png "Azure OpenAI")
+   ![](images/im1.png "Azure OpenAI")
       
-1. In the **Azure AI Studio**, select **Deployments (1)** under Management and verify that **gpt-35-turbo** model is present with the deployment name as **sql-chatgpt-model**, review that the capacity of the model is set to **15K TPM**. Copy the OpenAI Model name into the text file for later use.
+1. In the **Azure AI Foundry**, select **Deployments** under Management and verify that **gpt-35-turbo** model is present with the deployment name as **sql-chatgpt-model**, review that the capacity of the model is set to **15K TPM**. Copy the OpenAI Model name into the text file for later use.
    
-   ![](images/deployments_1.png "Azure OpenAI")
+   ![](images/im2.png "Azure OpenAI")
 
    > **Note**: Click on the **Expand** button, if you dont see the left side navigation pane.
 
-   ![](images/code2.png "Keys and Endpoints")          
+   ![](images/im3.png "Keys and Endpoints")          
    
 1. Naviagte back to [Azure portal](http://portal.azure.com/), search and select **Azure OpenAI**, from the **Azure AI Services | Azure OpenAI pane**, select the **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
 
@@ -115,11 +115,11 @@ In this task, you will be reviewing the code in the visual studio code and publi
 
    ![](images/sql13.png "Azure OpenAI")
 
-1. Once the deployment succeeded, you will see the following message **SUCCESS: Your application was provisioned and deployed to Azure**. The deployment might take 5 - 10 minutes. It is producing a web package file, then creating the resource and publishing the package to the app service.
+1. Once the deployment succeeded, you will see the following message **SUCCESS:  Your up workflow to provision and deploy to Azure completed**. The deployment might take 5 - 10 minutes. It is producing a web package file, then creating the resource and publishing the package to the app service.
 
-      ![](images/Azure-OpenAI-NLP-using-ChatGPT-1.png "Azure OpenAI")
+      ![](images/im4.png "Azure OpenAI")
 
-1. Navigate back to the Azure portal, search and select **App service**. 
+1. Navigate back to the Azure portal, search and select **App services**. 
 
       ![](images/sql14.png "Azure OpenAI")
 
@@ -133,17 +133,16 @@ In this task, you will be reviewing the code in the visual studio code and publi
       
       ![](images/webapp2.png "Azure OpenAI")
 
-1. Click the **Next** button located in the bottom right corner of this lab guide to continue with the next exercise.
-
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    - If you receive a success message, you can proceed to the next task.
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
      
-   <validation step="903c0c69-137e-431a-8aa2-9097df6507ae" />
+   <validation step="d47c14c0-5c3c-489c-9872-959b900195b5" />
    
 ## Summary
 
-In this exercise, you have completed the OpenAI Setup and hosted a demo application to Azure. You will be exploring the demo application in the next exercise, click **Next** to continue with the lab.
+In this exercise, you have covered the following:
+-  OpenAI Setup and hosted a demo application to Azure. 
    
-### You have successfully completed the lab
+### You have successfully completed the exercise
