@@ -15,7 +15,7 @@ Understand how to set up OpenAI in Azure, deploy it to Azure App Service, and le
 
 ## Pre-requisites
 
-Participants should have:
+Participants should have the following prerequisites:
 
 - **Fundamental Knowledge of Azure Services** : Knowing about some of the basic services like App Services.
 - **Basic Understanding Programming Language** : basic understanding of programming languages like python or csharp.
@@ -48,11 +48,13 @@ Once you're ready to dive in, your virtual machine and lab guide will be right a
 
 ### Virtual Machine & Lab Guide
  
-Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
+In the integrated environment, the lab VM serves as the designated workspace, while the lab guide is accessible on the right side of the screen.
+
+**Note**: Kindly ensure that you are following the instructions carefully to ensure the lab runs smoothly and provides an optimal user experience.
  
 ## Exploring Your Lab Resources
  
-To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
+To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
   ![](images/miw(3).png)
  
