@@ -6,7 +6,7 @@ Welcome to Contoso Corporation's AI exploration lab! In this exercise, you'll em
 
 ## Lab Scenario
  
- Contoso Corporation, an innovator in engineering practices, has embraced the dynamic duo of Microsoft Azure and OpenAI. In this exercise, you'll delve into creating a deployment and model using Azure OpenAI Studio.
+ Contoso Corporation, an innovator in engineering practices, has embraced the dynamic duo of Microsoft Azure and OpenAI. In this exercise, you'll delve into creating a deployment and model using Azure AI Foundry portal.
   
 ## Lab Objective
 
@@ -51,7 +51,7 @@ In this task, you will deploy an Azure OpenAI model by setting up an instance, c
 
 ### Task 2: Deploy a model
 
-Azure OpenAI provides a web-based portal named **Azure OpenAI Studio**, that you can use to deploy, manage, and explore models. You'll start your exploration of Azure OpenAI by using Azure OpenAI Studio to deploy a model.
+Azure OpenAI provides a web-based portal named **Azure AI Foundry portal**, that you can use to deploy, manage, and explore models. You'll start your exploration of Azure OpenAI by using Azure AI Foundry portal to deploy a model.
 
 1. In the **Azure portal**, search for **OpenAI** and select **Azure OpenAI**.
 
@@ -61,7 +61,7 @@ Azure OpenAI provides a web-based portal named **Azure OpenAI Studio**, that you
 
    ![](images/sql4.png)
 
-1. In the Azure OpenAI resource pane, click on **Go to Azure OpenAI Studio** it will navigate to **Azure AI Studio**.
+1. In the Azure OpenAI resource pane, click on **Go to Azure AI Foundry portal** it will navigate to **Azure AI Foundry portal**.
 
    ![](images/sql5.png)
   
@@ -115,6 +115,6 @@ In this lab we have completed the following:
 
 ## Summary
 
-In this lab, you deployed an Azure OpenAI model using Azure OpenAI Studio, created and configured a deployment resource, and deployed the GPT-35-Turbo model
+In this lab, you deployed an Azure OpenAI model using Azure AI Foundry portal, created and configured a deployment resource, and deployed the GPT-35-Turbo model
 
 ## You have successfully completed the lab.
