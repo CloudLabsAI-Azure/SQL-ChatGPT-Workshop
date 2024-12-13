@@ -26,7 +26,7 @@ In this task, you will be reviewing the Open AI deployments.
 
    ![](images/im1.png "Azure OpenAI")
       
-1. In the **Azure AI Foundry**, select **Deployments** under Management and verify that **gpt-35-turbo** model is present with the deployment name as **sql-chatgpt-model**, review that the capacity of the model is set to **15K TPM**. Copy the OpenAI Model name into the text file for later use.
+1. In the **Azure AI Foundry**, select **Deployments** under Shared resources and verify that **gpt-35-turbo** model is present with the deployment name as **sql-chatgpt-model**, review that the capacity of the model is set to **15K TPM**. Copy the OpenAI Model name into the text file for later use.
    
    ![](images/im2.png "Azure OpenAI")
 
