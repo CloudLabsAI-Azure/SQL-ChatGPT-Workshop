@@ -65,7 +65,7 @@ Azure OpenAI provides a web-based portal named **Azure AI Foundry portal**, that
 
    ![](images/sql5.png)
   
-1. On the **Azure OpenAI Service** page, click on **Deployment (1)** from the left naviagtion pane, select the **+ Deploy model (2)** drop down and then click on **Deploy base model (3)**
+1. On the **Azure AI Foundry** page, click on **Deployment (1)** from the left naviagtion pane, select the **+ Deploy model (2)** drop down and then click on **Deploy base model (3)**
 
    ![](images/sql6.png "Create a new deployment")
 

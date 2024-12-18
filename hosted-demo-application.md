@@ -21,11 +21,12 @@ In this task, you will work with the Data Analysis Assistant and SQL Query Writi
     - Azure OpenAI Key:   enter **Key (5)** which you have saved in previous task.
 
        ![](images/nl-set-credential.png "Natural Language Query")
+ >**Note:** You try to submit the query again in case of any errors in the output.
 
 1. On the Natural Language Query page, select **SQL Query Writing Assistant (1)** from the left-side menu, from the **GPT model**, select **ChatGPT (2)**,  change the **FAQs** from the drop-down menu to select **Show me revenue by-product in ascending order (3)**, and and click on **Submit (4)**. According to the query, the **Output (5)** will be displayed.
 
     ![](images/nl-01.png "Natural Language Query")
-    
+
 1. On the **Natural Language Query** page, on the left side menu, change the **FAQs** from the drop-down menu to select **Show me top 10 most expensive products (1)**, and click on **Submit (2)**. According to the query, the **Output (3)** will be displayed.
 
     ![](images/nl-02.png "Natural Language Query")
