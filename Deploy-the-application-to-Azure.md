@@ -133,11 +133,11 @@ In this task, you will be reviewing the code in the visual studio code and publi
       
       ![](images/webapp2.png "Azure OpenAI")
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    - If you receive a success message, you can proceed to the next task.
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
-     
+ 
    <validation step="903c0c69-137e-431a-8aa2-9097df6507ae" />
    
 ## Summary
