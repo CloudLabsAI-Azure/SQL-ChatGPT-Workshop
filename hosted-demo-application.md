@@ -21,11 +21,26 @@ In this task, you will work with the Data Analysis Assistant and SQL Query Writi
     - Azure OpenAI Key:   enter **Key (5)** which you have saved in previous task.
 
        ![](images/nl-set-credential.png "Natural Language Query")
- >**Note:** You try to submit the query again in case of any errors in the output.
+
+       >**Note:** You try to submit the query again in case of any errors in the output.
 
 1. On the Natural Language Query page, select **SQL Query Writing Assistant (1)** from the left-side menu, from the **GPT model**, select **ChatGPT (2)**,  change the **FAQs** from the drop-down menu to select **Show me revenue by-product in ascending order (3)**, and and click on **Submit (4)**. According to the query, the **Output (5)** will be displayed.
 
     ![](images/nl-01.png "Natural Language Query")
+
+   >**Note:** If you get an error stating that the maximum limit reached, please follow the below steps to change the model version.
+     
+      - Navigate to the Microsoft Edge Browser tab where Azure AI Foundry portal is opened.
+     
+     - From the left navigation pane click on **Deployments** (1), select the **sql-chatgpt-model** (2) and click on **Edit**(3).
+
+         ![](images/opai-1.png)
+     
+     - For the Model version select **0301(Default)** option and click on **Save and close**.
+
+         ![](images/opai-2.png)
+
+     - Now back in the Azure portal launch the web app again from the App service resource and repeat step number 1 and 2.
 
 1. On the **Natural Language Query** page, on the left side menu, change the **FAQs** from the drop-down menu to select **Show me top 10 most expensive products (1)**, and click on **Submit (2)**. According to the query, the **Output (3)** will be displayed.
 
