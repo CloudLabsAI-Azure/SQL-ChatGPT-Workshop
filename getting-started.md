@@ -1,6 +1,6 @@
 # Azure OpenAI + NLP using ChatGPT on SQL Engine
 
-### Overall Estimated Duration: 1 hour 30 minutes
+### Overall Estimated Duration: 4 Hours 
 
 ## Overview
 
@@ -26,7 +26,7 @@ In this hands-on lab, you will deploy a Python or C# web application to Azure Ap
 
 ## Architecture Diagram
 
-![](/images/updatedss1.png)
+![](images/updatedss1.png)
 
 ## Explanation of Components
 
@@ -68,9 +68,15 @@ For convenience, you can open the lab guide in a separate window by selecting th
  
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
-  ![](images/res.png)
- 
-## Login to Azure Portal
+  ![](images/resources-vm-manage.png)
+
+## Lab Guide Zoom In/Zoom Out
+
+To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+
+![](images/labzoom-1.png)
+
+## Let's Get Started with Azure Portal
 
 1. In the JumpVM, click on the Azure portal shortcut of the Microsoft Edge browser which is created on the desktop.
 
@@ -98,7 +104,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
-1. If a **Welcome to Microsoft Azure** popup window appears, select **Maybe Later** to skip the tour.
+1. If a **Welcome to Microsoft Azure** popup window appears, select **Cancel** to skip the tour.
    
 1. Now you will see the Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
 
