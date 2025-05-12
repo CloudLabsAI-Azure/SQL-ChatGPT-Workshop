@@ -138,7 +138,7 @@ In this task, you will be reviewing the code in the visual studio code and publi
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
  
-   <validation step="903c0c69-137e-431a-8aa2-9097df6507ae" />
+   <validation step="d47c14c0-5c3c-489c-9872-959b900195b5" />
    
 ## Summary
 
