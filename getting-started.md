@@ -94,13 +94,9 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
    
       ![](images/signin-pword.png "Enter Password")
 
-1. If you see the pop-up Action Required, click Ask Later.
-
-   ![](images/asklater.png)
-
-   >**NOTE:** Do not enable MFA, select **Ask Later**.
-     
 1. If you see the pop-up **Stay Signed in?**, select **No**.
+
+      > **Note**: If prompted with MFA, please follow the steps highlighted under - [Steps to Proceed with MFA Setup if Ask Later Option is Not Visible](#steps-to-proceed-with-mfa-setup-if-ask-later-option-is-not-visible)
 
 1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
@@ -117,6 +113,35 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 1. Verify the resources deployed in the resource group.
 
    ![](images/resources.png "Resource groups")
+
+
+## Steps to Proceed with MFA Setup if Ask Later Option is Not Visible
+
+   > **Note:** Continue with the exercises if MFA is already enabled or the option is unavailable.
+
+1. At the **"More information required"** prompt, select **Next**.
+
+1. On the **"Keep your account secure"** page, select **Next** twice.
+
+1. **Note:** If you don’t have the Microsoft Authenticator app installed on your mobile device:
+
+   - Open **Google Play Store** (Android) or **App Store** (iOS).
+   - Search for **Microsoft Authenticator** and tap **Install**.
+   - Open the **Microsoft Authenticator** app, select **Add account**, then choose **Work or school account**.
+
+1. A **QR code** will be displayed on your computer screen.
+
+1. In the Authenticator app, select **Scan a QR code** and scan the code displayed on your screen.
+
+1. After scanning, click **Next** to proceed.
+
+1. On your phone, enter the number shown on your computer screen in the Authenticator app and select **Next**.
+       
+1. If prompted to stay signed in, you can click **No**.
+
+1. If a **Welcome to Microsoft Azure** popup window appears, click **Cancel** to skip the tour.
+ 
+1. Now, click on the **Next** from the lower right corner to move to the next page.
 
 In this lab, you will review the Open AI deployments and review the code and publish it to Azure App Services. You will work with the hosted application and leverage AI tools to streamline data analysis and query generation
 
