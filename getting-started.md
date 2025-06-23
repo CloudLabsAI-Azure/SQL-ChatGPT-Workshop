@@ -17,8 +17,8 @@ Understand how to set up OpenAI in Azure, deploy it to Azure App Service, and le
 
 Participants should have the following prerequisites:
 
-- **Fundamental Knowledge of Azure Services** : Knowing about some of the basic services like App Services.
-- **Basic Understanding Programming Language** : basic understanding of programming languages like python or csharp.
+- **Fundamental Knowledge of Azure Services**: Knowing about some of the basic services like App Services.
+- **Basic Understanding of Programming Language**: basic understanding of programming languages like python or csharp.
 
 ## Architecture
 
@@ -44,7 +44,7 @@ Welcome to your SQL-ChatGPT-Workshop workshop! We've prepared a seamless environ
  
 Once you're ready to dive in, your virtual machine and guide will be right at your fingertips within your web browser.
 
-  ![](images/nlpp1.png)
+  ![](images/21-06-25-g1.png)
 
 ### Virtual Machine & Lab Guide
  
