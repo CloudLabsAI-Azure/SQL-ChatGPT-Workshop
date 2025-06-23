@@ -12,23 +12,23 @@ In this Exercise, you will complete the following tasks:
 
 ## Task 1: Review Open AI resource
 
-In this task, you will be reviewing the Open AI deployments.
+In this task, you will be reviewing the OpenAI deployments.
 
-1. In the Azure portal, search for **Azure OpenAI** in the top search box then select **Azure OpenAI** under services.
+1. In the Azure portal, search for **Azure OpenAI** in the top search box, then select **Azure OpenAI** under services.
 
-   ![](images/search_openai.png "Azure OpenAI")
+   ![](images/21-06-25-p-1.png "Azure OpenAI")
    
-1. From the **Azure AI Services | Azure OpenAI** pane, select **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
+1. From the **Azure AI services | Azure OpenAI** pane, select **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
 
-   ![](images/sql_openai1.png)
+   ![](images/21-06-25-s2-1.png)
    
 1. In the Azure OpenAI resource pane, click on **Go to Azure AI Foundry portal** it will navigate to **Azure AI Foundry portal**.
 
    ![](images/im1.png "Azure OpenAI")
       
-1. In the **Azure AI Foundry**, select **Deployments** under Shared resources and verify that **gpt-35-turbo** model is present with the deployment name as **sql-chatgpt-model**, review that the capacity of the model is set to **15K TPM**. Copy the OpenAI Model name into the text file for later use.
+1. In the **Azure AI Foundry**, select **Deployments (1)** under Shared resources and verify that **gpt-35-turbo** model is present with the deployment name as **sql-chatgpt-model (2)**, review that the capacity of the model is set to **40K TPM**. Copy the OpenAI Model name into the text file for later use.
    
-   ![](images/im2.png "Azure OpenAI")
+   ![](images/21-06-25-s2-2.png "Azure OpenAI")
 
    > **Note**: Click on the **Expand** button, if you dont see the left side navigation pane.
 
@@ -36,16 +36,18 @@ In this task, you will be reviewing the Open AI deployments.
    
 1. Naviagte back to [Azure portal](http://portal.azure.com/), search and select **Azure OpenAI**, from the **Azure AI Services | Azure OpenAI pane**, select the **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
 
+   ![](images/21-06-25-s2-1.png)
+
 1. Now select **Keys and Endpoints** **(1)** under Resource Management and click on **Show Keys** **(2)**. Copy the **KEY 1** **(3)** and **Endpoint** **(4)**, and store them in a text file for later use.
 
    ![](images/keys-1.png)
 
-   > **Note**: If you dont see the Left side Navigation pane, click on the three horizontal line on the top left corner.
+   > **Note**: If you don't see the Left side Navigation pane, click on the three horizontal line on the top left corner.
 
       
 ## Task 2: Deploy the application to Azure
 
-In this task, you will be reviewing the code in the visual studio code and publishing the application to Azure App Services through CLI.
+In this task, you will be reviewing the code in the Visual Studio Code and publishing the application to Azure App Services through CLI.
 
 1. In the LabVM, open **File Explorer** naviagte to the `C:\LabFiles\OpenAIWorkshop-Automation\scenarios\incubations\automating_analytics` **(1)** path, right click on **app.py (2)**, and select **Open with Code (3)**. Take a look at the code to see how it works.
 
@@ -119,13 +121,13 @@ In this task, you will be reviewing the code in the visual studio code and publi
 
       ![](images/im4.png "Azure OpenAI")
 
-1. Navigate back to the Azure portal, search and select **App services**. 
+1. Navigate back to the Azure portal, search for **App service (1)** and select **App services (2)**.
 
-      ![](images/sql14.png "Azure OpenAI")
+      ![](images/21-06-25-s2-3.png "Azure OpenAI")
 
 1. Select the available web app that you have deployed in the previous step.
 
-      ![](images/app-service-select.png "Azure OpenAI")
+      ![](images/21-06-25-s2-4.png "Azure OpenAI")
 
 1. Next, click on **Browse** to open your Web application.
 
