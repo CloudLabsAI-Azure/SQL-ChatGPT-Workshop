@@ -17,8 +17,8 @@ Understand how to set up OpenAI in Azure, deploy it to Azure App Service, and le
 
 Participants should have the following prerequisites:
 
-- **Fundamental Knowledge of Azure Services** : Knowing about some of the basic services like App Services.
-- **Basic Understanding Programming Language** : basic understanding of programming languages like python or csharp.
+- **Fundamental Knowledge of Azure Services**: Knowing about some of the basic services like App Services.
+- **Basic Understanding of Programming Language**: basic understanding of programming languages like python or csharp.
 
 ## Architecture
 
@@ -33,7 +33,7 @@ In this hands-on lab, you will deploy a Python or C# web application to Azure Ap
 The architecture for this lab involves the following key components:
 
 - **Azure Open AI** : Azure OpenAI provides advanced natural language processing capabilities through models like ChatGPT. In this lab, it powers the Data Analysis Assistant and SQL Query Writing Assistant, enabling the application to analyze data, generate insights, and convert natural language inputs into SQL queries.
-- **Azure App Services** : Azure App Services is a fully managed platform for building, deploying, and scaling web applications. In this lab, it hosts the web application, providing a scalable and reliable environment for integrating with Azure OpenAI and delivering AI-driven functionalities to users.
+- **Azure App Services** : Azure App Services is a fully managed platform for building, deploying, and scaling web applications. In this lab it hosts the web application, providing a scalable and reliable environment for integrating with Azure OpenAI and delivering AI-driven functionalities to users.
 - **Visual Studio Code** : Visual Studio Code is a versatile code editor used for developing and managing the web application code in this lab.
 
 ## Getting Started with the Lab
@@ -44,11 +44,11 @@ Welcome to your SQL-ChatGPT-Workshop workshop! We've prepared a seamless environ
  
 Once you're ready to dive in, your virtual machine and guide will be right at your fingertips within your web browser.
 
-  ![](images/nlpp1.png)
+  ![](images/21-06-25-g1.png)
 
 ### Virtual Machine & Lab Guide
  
-In the integrated environment, the lab VM serves as the designated workspace, while the lab guide is accessible on the right side of the screen.
+In the integrated environment, the lab VM serves as the designated workspace, while the guide is accessible on the right side of the screen.
 
 **Note**: Kindly ensure that you are following the instructions carefully to ensure the lab runs smoothly and provides an optimal user experience.
  
@@ -60,13 +60,13 @@ To get a better understanding of your lab resources and credentials, navigate to
  
 ## Utilizing the Split Window Feature
  
-For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
+For convenience, you can open the guide in a separate window by selecting the **Split Window** button from the Top right corner.
 
   ![](images/nlpp3.png)
  
 ## Managing Your Virtual Machine
  
-Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+Feel free to **start, stop, or restart** your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
   ![](images/nlpp4.png)
 
@@ -78,7 +78,7 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
 ## Let's Get Started with Azure Portal
 
-1. In the JumpVM, click on the Azure portal shortcut of the Microsoft Edge browser which is created on the desktop.
+1. In the **JumpVM**, click on the **Azure portal shortcut** of the Microsoft Edge browser which is created on the desktop.
 
    ![](images/updated1.png)
    
@@ -104,9 +104,9 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
    
 1. Now you will see the Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
 
-   ![](images/select-rg.png "Resource groups")
+   ![](images/21-06-25-g2.1.png "Resource groups")
    
-1. Confirm that you have all resource groups present as shown below.
+1. Confirm that you have all **Resource groups** present as shown below.
 
    ![](images/open-sql-rg.png "Resource groups")
    

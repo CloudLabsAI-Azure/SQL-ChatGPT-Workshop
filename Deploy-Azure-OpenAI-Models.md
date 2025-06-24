@@ -2,11 +2,11 @@
 
 Welcome to Contoso Corporation's AI exploration lab! In this exercise, you'll embark on a journey to integrate Azure OpenAI into your workflow.
 
-### Estimated Time: 30 minutes
+### Estimated Time: 30 Minutes
 
 ## Lab Scenario
  
- Contoso Corporation, an innovator in engineering practices, has embraced the dynamic duo of Microsoft Azure and OpenAI. In this exercise, you'll delve into creating a deployment and model using Azure AI Foundry portal.
+ Contoso Corporation, an innovator in engineering practices, has embraced the dynamic duo of Microsoft Azure and OpenAI. In this exercise, you'll delve into creating a deployment and model using the Azure AI Foundry portal.
   
 ## Lab Objective
 
@@ -18,15 +18,15 @@ In this exercise, you will perform the following:
 
 In this task, you will deploy an Azure OpenAI model by setting up an instance, configuring resources, and making the model ready for use in Azure.
 
-1. In the **Azure portal**, search for **OpenAI** and select **Azure OpenAI**.
+1. In the **Azure portal**, search for **Azure OpenAI (1)** and select **Azure OpenAI (2)**.
 
-   ![](images/sql-1.png)
+   ![](images/21-06-25-p-1.png)
 
-1. On **Azure AI Services | Azure OpenAI** blade, click on **Create**.
+1. On the **Azure AI services** page, click **Azure OpenAI (1)** under Azure AI services section, then select **+ Create (2)**.
 
-   ![](images/sql2.png)
+   ![](images/21-06-25-p-1.1.png)
 
-1. Create an **Azure OpenAI** resource with the following settings:
+1. On the **Basics** tab of **Create Azure OpenAI** page enter the following settings:
    
     - **Subscription**: Default-Pre-assigned subscription. **(1)**
     - **Resource group**: sql-chat-gpt-<inject key="Deployment ID" enableCopy="false"></inject> **(2)**
@@ -39,7 +39,8 @@ In this task, you will deploy an Azure OpenAI model by setting up an instance, c
       
       >**Note:** Kindly select Sweden Central region only as the resources are region-specific.
 
-4. Keep rest as default click on Next twice and subsequently click on **Create** .
+4. Keep the rest as default, click on **Next twice** and subsequently click on **Create**.
+
 5. Wait for deployment to complete. Then go to the deployed Azure OpenAI resource in the Azure portal.
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
@@ -51,25 +52,25 @@ In this task, you will deploy an Azure OpenAI model by setting up an instance, c
 
 ### Task 2: Deploy a model
 
-Azure OpenAI provides a web-based portal named **Azure AI Foundry portal**, that you can use to deploy, manage, and explore models. You'll start your exploration of Azure OpenAI by using Azure AI Foundry portal to deploy a model.
+Azure OpenAI provides a web-based portal named **Azure AI Foundry portal**, which you can use to deploy, manage, and explore models. You'll start your exploration of Azure OpenAI by using the Azure AI Foundry portal to deploy a model.
 
-1. In the **Azure portal**, search for **OpenAI** and select **Azure OpenAI**.
+1. In the **Azure portal**, search for **Azure OpenAI (1)** and select **Azure OpenAI (2)**.
 
-   ![](images/sql1.png)
+   ![](images/21-06-25-p-1.png)
 
-1. On **Azure AI Services | Azure OpenAI** blade, select **OpenAI-<inject key="Deployment ID" enableCopy="false"></inject>**
+1. On **Azure AI services | Azure OpenAI** blade, select **OpenAI-<inject key="Deployment ID" enableCopy="false"></inject>**
 
-   ![](images/sql4.png)
+   ![](images/21-06-25-p-2.png)
 
 1. In the Azure OpenAI resource pane, click on **Go to Azure AI Foundry portal** it will navigate to **Azure AI Foundry portal**.
 
-   ![](images/sql5.png)
+   ![](images/21-06-25-p-3.png)
   
 1. On the **Azure AI Foundry** page, click on **Deployment (1)** from the left naviagtion pane, select the **+ Deploy model (2)** drop down and then click on **Deploy base model (3)**
 
    ![](images/sql6.png "Create a new deployment")
 
-   > **Note**: Click on the **Expand** button, if you dont see the left side navigation pane.
+   > **Note**: Click on the **Expand** button, if you don't see the left side navigation pane.
 
    ![](images/code2.png "Keys and Endpoints")             
 
@@ -79,7 +80,7 @@ Azure OpenAI provides a web-based portal named **Azure AI Foundry portal**, that
 
 1. On the **Deploy model gpt-35-turbo** pop-up interface, click on **Customize (1)**
    
-   ![](images/sql8.png "Create a new deployment")
+   ![](images/21-06-25-p-4.png "Create a new deployment")
 
    > **Note**: If you dont see the **Customize** option you can go ahead with next step.
 
@@ -93,7 +94,7 @@ Azure OpenAI provides a web-based portal named **Azure AI Foundry portal**, that
     -  **Enable Dynamic Quota**: Enabled **(6)**
    
 
-      ![](images/sql9.png)
+      ![](images/21-06-25-p-5.png)
 
    
 
