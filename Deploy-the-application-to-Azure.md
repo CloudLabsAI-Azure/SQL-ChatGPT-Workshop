@@ -14,7 +14,7 @@ In this Exercise, you will complete the following tasks:
 
 In this task, you will be reviewing the OpenAI deployments.
 
-1. In the Azure portal, search for **Azure OpenAI** in the top search box, then select **Azure OpenAI** under services.
+1. In the Azure portal, search for **Azure OpenAI (1)** in the top search box, then select **Azure OpenAI (2)** under services.
 
    ![](images/21-06-25-p-1.png "Azure OpenAI")
    
