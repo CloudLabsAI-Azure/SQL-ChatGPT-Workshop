@@ -18,13 +18,13 @@ In this exercise, you will perform the following:
 
 In this task, you will deploy an Azure OpenAI model by setting up an instance, configuring resources, and making the model ready for use in Azure.
 
-1. In the **Azure portal**, search for **OpenAI** and select **Azure OpenAI**.
+1. In the **Azure portal**, search for **Azure OpenAI (1)** and select **Azure OpenAI (2)**.
 
-   ![](images/sql-1.png)
+   ![](images/21-06-25-p-1.png)
 
 1. On the **Azure AI services** page, click **Azure OpenAI (1)** under Azure AI services section, then select **+ Create (2)**.
 
-   ![](images/21-06-25-p-1.png)
+   ![](images/21-06-25-p-1.1.png)
 
 1. On the **Basics** tab of **Create Azure OpenAI** page enter the following settings:
    
@@ -54,9 +54,9 @@ In this task, you will deploy an Azure OpenAI model by setting up an instance, c
 
 Azure OpenAI provides a web-based portal named **Azure AI Foundry portal**, which you can use to deploy, manage, and explore models. You'll start your exploration of Azure OpenAI by using the Azure AI Foundry portal to deploy a model.
 
-1. In the **Azure portal**, search for **OpenAI** and select **Azure OpenAI**.
+1. In the **Azure portal**, search for **Azure OpenAI (1)** and select **Azure OpenAI (2)**.
 
-   ![](images/sql1.png)
+   ![](images/21-06-25-p-1.png)
 
 1. On **Azure AI services | Azure OpenAI** blade, select **OpenAI-<inject key="Deployment ID" enableCopy="false"></inject>**
 
@@ -70,7 +70,7 @@ Azure OpenAI provides a web-based portal named **Azure AI Foundry portal**, whic
 
    ![](images/sql6.png "Create a new deployment")
 
-   > **Note**: Click on the **Expand** button, if you dont see the left side navigation pane.
+   > **Note**: Click on the **Expand** button, if you don't see the left side navigation pane.
 
    ![](images/code2.png "Keys and Endpoints")             
 
