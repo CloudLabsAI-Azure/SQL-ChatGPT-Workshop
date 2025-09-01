@@ -44,75 +44,75 @@ Welcome to your SQL-ChatGPT-Workshop workshop! We've prepared a seamless environ
  
 Once you're ready to dive in, your virtual machine and guide will be right at your fingertips within your web browser.
 
-  ![](images/21-06-25-g1.png)
+  ![](images2/access.png)
 
-### Virtual Machine & Lab Guide
+## Virtual Machine & Lab Guide
  
-In the integrated environment, the lab VM serves as the designated workspace, while the guide is accessible on the right side of the screen.
+Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
 
-**Note**: Kindly ensure that you are following the instructions carefully to ensure the lab runs smoothly and provides an optimal user experience.
- 
 ## Exploring Your Lab Resources
  
-To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
+To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab. Here, you will find the Azure credentials. Click on the **Environment** option to verify the credentials.
 
-  ![](images/nlpp2.png)
+  ![](images2/env.png)
  
 ## Utilizing the Split Window Feature
  
-For convenience, you can open the guide in a separate window by selecting the **Split Window** button from the Top right corner.
+For convenience, you can open the lab guide in a separate window by selecting the Split Window button from the top right corner.
 
-  ![](images/nlpp3.png)
+  ![](images2/split.png)
  
 ## Managing Your Virtual Machine
  
-Feel free to **start, stop, or restart** your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+Feel free to **Start, Stop**, or **restart** your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
-  ![](images/nlpp4.png)
+  ![](images2/res.png)
 
 ## Lab Guide Zoom In/Zoom Out
 
 To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
-![](images/labzoom-1.png)
+![](images2/zoom.png)
 
 ## Let's Get Started with Azure Portal
 
 1. In the **JumpVM**, click on the **Azure portal shortcut** of the Microsoft Edge browser which is created on the desktop.
 
-   ![](images/updated1.png)
+   ![](images2/azure.png)
    
-1. On the **Sign in to Microsoft Azure** tab you will see the login screen, in that enter the following email/username, and click on **Next**. 
+1. On the **Sign in to Microsoft Azure** tab you will see the login screen, in that enter the following email/username, and click on **Next (2)**. 
 
-   * **Email/Username**: <inject key="AzureAdUserEmail"></inject>
+   * **Email/Username**: <inject key="AzureAdUserEmail"></inject> **(1)**
    
-      ![](images/signin-uname.png "Enter Email")
+      ![](images2/email.png "Enter Email")
      
-1. Now enter the following password and click on **Sign in**.
+1. Now enter the following password and click on **Sign in (2)**.
    
-   * **Password**: <inject key="AzureAdUserPassword"></inject>
+   * **Password**: <inject key="AzureAdUserPassword"></inject> **(1)**
    
-      ![](images/signin-pword.png "Enter Password")
+      ![](images2/pass.png "Enter Password")
 
 1. If you see the pop-up **Stay Signed in?**, select **No**.
 
+   ![](images2/stay.png)
+
       > **Note**: If prompted with MFA, please follow the steps highlighted under - [Steps to Proceed with MFA Setup if Ask Later Option is Not Visible](#steps-to-proceed-with-mfa-setup-if-ask-later-option-is-not-visible)
 
-1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
+1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel** to skip the tour.
 
-1. If a **Welcome to Microsoft Azure** popup window appears, select **Cancel** to skip the tour.
-   
+   ![](images2/azure2.png)
+
 1. Now you will see the Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
 
-   ![](images/21-06-25-g2.1.png "Resource groups")
+   ![](images2/rg.png "Resource groups")
    
-1. Confirm that you have all **Resource groups** present as shown below.
+1. Confirm that you have **sql-chat-gpt-<inject key="Deployment ID" enableCopy="false"/>**  resource group present.
 
-   ![](images/open-sql-rg.png "Resource groups")
+   ![](images2/rg2.png "Resource groups")
    
 1. Verify the resources deployed in the resource group.
 
-   ![](images/resources.png "Resource groups")
+   ![](images2/rg3.png "Resource groups")
 
 
 ## Steps to Proceed with MFA Setup if Ask Later Option is Not Visible
@@ -154,8 +154,8 @@ Learner Support Contacts:
 - Email Support: cloudlabs-support@spektrasystems.com
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
-Now, click on **Next** from the lower right corner to move on to the next page.
+Now, click on **Next >>** from the lower right corner to move on to the next page.
 
-![](images/lab-next.png)
+![](images2/nextpage.png)
 
 ### Happy Learning!!
