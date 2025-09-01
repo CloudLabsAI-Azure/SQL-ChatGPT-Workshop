@@ -1,12 +1,12 @@
-# Exercise 2: Quick Start With Hosted Demo Application.
+# Exercise 2: Quick Start With Hosted Demo Application
 
-### Estimated Duration : 30 Minutes
+### Estimated Duration : 90 Minutes
 
-In this exercise, you will be working with the application that you hosted in the previous exercise and work with the Data Analysis Assistant and SQL Query Writing Assistant in the application.
+In this exercise, you will utilize the application deployed in the previous exercise to work with the Data Analysis Assistant and SQL Query Writing Assistant features.
 
 ## Objectives
 
-In this Exercise, you will complete the following task:
+You will be able to complete the following tasks:
 
 - Task 1: Analyzing Data Analysis Assistant and SQL Query Writing Assistant
 
@@ -82,8 +82,9 @@ In this task, you will work with the Data Analysis Assistant and SQL Query Writi
 ## Summary
 
 In this exercise, you have completed the following:
-- Analyzed data using the Data Analysis Assistant and generated SQL queries with the SQL Query - Writing Assistant in the Azure OpenAI Playground.
+
+- Analyzed the functionality of the Data Analysis Assistant and SQL Query Writing Assistant powered by ChatGPT.
 
 ## You have successfully completed the Hands-on lab. 
 
-By completing this labs, you gained practical experience using **Azure OpenAI** to enhance **ChatGPT** with your own data. In the first lab, you reviewed an OpenAI resource and deployed an application on Azure, learning how to integrate AI with custom data sources. In the second lab, you explored a Data Analysis Assistant and SQL Query Writing Assistant, showcasing how ChatGPT can simplify data analysis and SQL generation through natural language. This lab demonstrated how to build intelligent, data-driven solutions using Azure and OpenAI.
+By completing the **Azure OpenAI + NLP using ChatGPT on SQL Engine** hands-on lab, you have developed practical expertise in enhancing ChatGPT with your own data using Azure OpenAI. You reviewed and deployed OpenAI resources and applications on Azure, gaining hands-on experience integrating AI with custom data sources. Additionally, you explored the capabilities of the Data Analysis Assistant and SQL Query Writing Assistant, demonstrating how natural language processing can simplify data analysis and SQL query generation. This end-to-end experience has equipped you with the skills to build intelligent, data-driven solutions leveraging Azure and OpenAI technologies.

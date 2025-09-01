@@ -4,20 +4,20 @@
 
 ## Overview
 
-In this lab, you will explore an application that integrates Azure OpenAI's ChatGPT with advanced data analytics to provide in-depth business insights. The application leverages AI to uncover emerging trends, analyze customer behaviors, and forecast future outcomes, enabling businesses to make informed, strategic decisions based on comprehensive data analysis. You will learn how to utilize Azure App Services for scalable and reliable application hosting and Azure OpenAI for cutting-edge natural language processing. This lab will guide you through transforming complex data into actionable intelligence, enhancing your understanding and operational efficiency.
+In this lab, you will explore an application that combines Azure OpenAI’s ChatGPT with advanced data analytics to deliver actionable business insights. The solution uses AI to identify trends, analyze customer behavior, and forecast outcomes, enabling data-driven decision-making. You will also gain practical experience with Azure App Services for scalable hosting and Azure OpenAI for natural language processing, transforming complex data into meaningful intelligence.
 
 ## Objective
 
-Understand how to set up OpenAI in Azure, deploy it to Azure App Service, and leverage AI-driven tools for effective data analysis and SQL query generation. By the end of this lab, participants will be able to : 
+By the end of this lab, you will be able to:
 
-- **Open AI Setup and Installation of Application** : Learn to review and configure an OpenAI resource in Azure, followed by deploying an application to Azure App Service using the command-line interface. This exercise will cover setting up the resource, ensuring its proper integration, and successfully hosting the application in the cloud.
-- **Quick Start With Hosted Demo Application** : Learn to interact with the hosted Demo Application, utilizing the Data Analysis Assistant and SQL Query Writing Assistant. This exercise focuses on analyzing data and leveraging AI tools to streamline data analysis and query generation.
+- **Open AI Setup and Installation of Application**: Learn to review and configure an OpenAI resource in Azure, followed by deploying an application to Azure App Service using the command-line interface. This exercise will cover setting up the resource, ensuring its proper integration, and successfully hosting the application in the cloud.
+
+- **Quick Start With Hosted Demo Application**: Learn to interact with the hosted Demo Application, utilizing the Data Analysis Assistant and SQL Query Writing Assistant. This exercise focuses on analyzing data and leveraging AI tools to streamline data analysis and query generation.
 
 ## Pre-requisites
 
-Participants should have the following prerequisites:
-
 - **Fundamental Knowledge of Azure Services**: Knowing about some of the basic services like App Services.
+
 - **Basic Understanding of Programming Language**: basic understanding of programming languages like python or csharp.
 
 ## Architecture
@@ -42,7 +42,7 @@ Welcome to your SQL-ChatGPT-Workshop workshop! We've prepared a seamless environ
  
 ## Accessing Your Lab Environment
  
-Once you're ready to dive in, your virtual machine and guide will be right at your fingertips within your web browser.
+Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
 
   ![](images2/access.png)
 
