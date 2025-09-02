@@ -150,7 +150,7 @@ In this task, you will be reviewing the code in the Visual Studio Code and publi
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
- <validation step="d47c14c0-5c3c-489c-9872-959b900195b5" />
+<validation step="d47c14c0-5c3c-489c-9872-959b900195b5" />
 
 ## Summary
 
