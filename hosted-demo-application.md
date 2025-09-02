@@ -29,7 +29,7 @@ In this task, you will work with the Data Analysis Assistant and SQL Query Writi
 
     ![](images/nl-01.png "Natural Language Query")
 
-   >**Note:** If you get an error stating that the maximum limit reached, please follow the below steps to change the model version.
+   >**Note:** If you encounter an error indicating that the **maximum limit has been reached**, follow the steps below to modify the model version accordingly.
      
       - Navigate to the browser tab where Azure AI Foundry portal is opened.
      
@@ -41,13 +41,13 @@ In this task, you will work with the Data Analysis Assistant and SQL Query Writi
 
          ![](images2/1/s2.png)
 
-     - Now back in the Azure portal launch the web app again from the App service resource and repeat step number 1 and 2.
+     - Now, return to the **Azure portal**, launch the web app from the App Service resource, and repeat **Step 1** and **Step 2**.
 
-1. On the **Natural Language Query** page, select **Show me top 10 most expensive products (1)** from the **FAQs** dropdown, click **Submit (2)**, and view the **results (3)** in output section.
+1. On the **Natural Language Query** page, from the left side menu, select **Show me top 10 most expensive products (1)** from the **FAQs** dropdown, click **Submit (2)**, and view the **results (3)** in output section.
 
     ![](images/nl-02.png "Natural Language Query")
 
-1. On the **Natural Language Query** page, on the left side menu, change the **FAQs** from the drop-down menu to select **Show me net revenue by year. Revenue time is based on the shipped date. (1)**, and click on **Submit (2)**. According to the query, the **Output (3)** will be displayed.
+1. Now change the **FAQs** from the drop-down menu to select **Show me net revenue by year. Revenue time is based on the shipped date. (1)**, and click on **Submit (2)**. According to the query, the **Output (3)** will be displayed.
 
     ![](images/nl-03.png "Natural Language Query")
 
