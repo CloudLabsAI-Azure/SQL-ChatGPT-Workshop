@@ -37,7 +37,7 @@ In this task, you will work with the Data Analysis Assistant and SQL Query Writi
 
          ![](images/opai-1.png)
      
-     - For the Model version select **0125(Default)** option and click on **Save and close**.
+     - For the Model version select **0125(Default)** option and click on **Submit Changes**.
 
          ![](images2/1/s2.png)
 
