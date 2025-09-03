@@ -86,7 +86,6 @@ In this task, you will be reviewing the code in the Visual Studio Code and publi
    azd auth login
    ```
 
-
 1. Select the **ODL_User <inject key="Deployment ID" enableCopy="false"/>** account shown to proceed with the **sign-in**.
 
    ![](images2/1/8a.png)
