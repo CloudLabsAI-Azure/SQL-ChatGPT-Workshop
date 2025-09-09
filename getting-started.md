@@ -38,7 +38,7 @@ The architecture for this lab involves the following key components:
 
 ## Getting Started with the Lab
 
-Welcome to your SQL-ChatGPT-Workshop workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+Welcome to your Azure OpenAI + NLP using ChatGPT on SQL Engine workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
  
 ## Accessing Your Lab Environment
  
@@ -76,7 +76,7 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
 ## Let's Get Started with Azure Portal
 
-1. In the **JumpVM**, click on the **Azure portal shortcut** of the Microsoft Edge browser which is created on the desktop.
+1. In the **Lab VM**, click on the **Azure portal** shortcut of the Microsoft Edge browser which is created on the desktop.
 
    ![](images2/azure.png)
    
