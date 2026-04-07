@@ -118,7 +118,7 @@ In this task, you will be reviewing the code in the Visual Studio Code and publi
    azd up
    ```
 
-1. Select your Azure subscription by entering `1`, then press **Enter** to continue.
+1. Select your Azure subscription by pressing **Enter** to continue.
 
       ![](images2/1/13.png)
 

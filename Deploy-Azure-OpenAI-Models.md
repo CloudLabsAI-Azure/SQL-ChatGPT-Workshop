@@ -93,13 +93,11 @@ Azure OpenAI provides a web-based portal named **Azure AI Foundry portal**, whic
     - **Tokens per Minute Rate Limit (thousands)**: 250K **(5)**
     - **Content Filter**: Default **(6)**
     -  **Enable Dynamic Quota**: Enabled **(7)**
-   
-
+    
+    
          ![](images/im-07.png)
-
-   
-
-         > **Note:** Azure OpenAI includes multiple models, each optimized for a different balance of capabilities and performance. In this exercise, you'll use the **gpt-4.1-mini** model, which is a good general model for summarizing and generating natural language and code. For more information about the available models in Azure OpenAI, see [Models](https://learn.microsoft.com/azure/cognitive-services/openai/concepts/models) in the Azure OpenAI documentation.
+         
+         >**Note:** Azure OpenAI includes multiple models, each optimized for a different balance of capabilities and performance. In this exercise, you'll use the **gpt-4.1-mini** model, which is a good general model for summarizing and generating natural language and code. For more information about the available models in Azure OpenAI, see [Models](https://learn.microsoft.com/azure/cognitive-services/openai/concepts/models) in the Azure OpenAI documentation.
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    - If you receive a success message, you can proceed to the next task.

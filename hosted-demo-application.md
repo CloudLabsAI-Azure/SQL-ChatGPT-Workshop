@@ -31,7 +31,7 @@ In this task, you will work with the Data Analysis Assistant and SQL Query Writi
 
    >**Note:** If you encounter an error indicating that the **maximum limit has been reached**, follow the steps below to modify the model version accordingly.
      
-      - Navigate to the browser tab where Azure AI Foundry portal is opened.
+      - Navigate to the browser tab where Microsoft Foundry portal is opened.
      
      - From the left navigation pane click on **Deployments (1)**, select the **sql-chatgpt-model (2)** and click on **Edit (3)**.
 
