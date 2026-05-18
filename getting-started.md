@@ -54,7 +54,7 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab. Here, you will find the Azure credentials. Click on the **Environment** option to verify the credentials.
 
-  ![](images2/env.png)
+  ![](images/img-env.png)
  
 ## Utilizing the Split Window Feature
  
