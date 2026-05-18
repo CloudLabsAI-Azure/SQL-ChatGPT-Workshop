@@ -65,37 +65,38 @@ Azure OpenAI provides a web-based portal named **Azure AI Foundry portal**, whic
 1. In the Azure OpenAI resource pane, click on **Go to Foundry portal** it will navigate to **Foundry portal**.
 
    ![](images/im-03.png)
+
+1. On the **Create a project** page, enter the **Project name** as **Foundry-<inject key="DeploymentID" enableCopy="false"/> (1)**, and select **Create (2)** while keeping the rest as default. On the **All set. Let's build your agents.** select **Let's go**.
+
+   ![](images/img-01-01.png)
+
+   ![](images/img-01-02.png)
   
-1. On the **Microsoft Foundry** page, click on **Deployments (1)** from the left naviagtion pane, select the **+ Deploy model (2)** drop down and then click on **Deploy base model (3)**
+1. On the **Your project is set up. What would you like to do next?** page, select **Browse models** under **Deploy and test a model**.
 
-   ![](images/im-04.png "Create a new deployment")
+   ![](images/img-01-03.png "Create a new deployment")            
 
-   > **Note**: Click on the **Expand** button, if you don't see the left side navigation pane.
+1. On the **Models** page, search and select **gpt-4.1-mini (1)**.
 
-   ![](images/code2-2.png "Keys and Endpoints")             
+   ![](images/img-01-04-01.png "Create a new deployment")
 
-1. On the **Select a model** page, search and select **gpt-4.1-mini (1)** and click on **Confirm (2).**
-
-   ![](images/im-05.png "Create a new deployment")
-
-1. On the **Deploy gpt-4.1-mini** pop-up interface, click on **Customize**
+1. On the **gpt-4.1-mini** page, click on **Deploy (1)** drop-down, and select **Custom settings (2)**.
    
-   ![](images/im-06.png "Create a new deployment")
+   ![](images/img-01-05.png "Create a new deployment")
 
-   > **Note**: If you dont see the **Customize** option you can go ahead with next step.
-
-1. Within the **Deploy gpt-4.1-mini** pop-up interface, enter the following details and then click on **Deploy (8)** button to deploy a model that you will be playing around with as you proceed.
+1. Within the **Deploy gpt-4.1-mini** pop-up interface, enter the following details and then click on **Deploy (7)** button to deploy a model that you will be playing around with as you proceed.
      
     - **Deployment name**: gpt-4.1-mini **(1)**
     - **Deployment Type**: Standard **(2)**
-    - **Model version upgrade policy**: Upgrade once new default version becomes available **(3)**
-    - **Model version**: 2025-04-14 (Default) **(4)**
-    - **Tokens per Minute Rate Limit (thousands)**: 250K **(5)**
-    - **Content Filter**: Default **(6)**
-    -  **Enable Dynamic Quota**: Enabled **(7)**
+    - **Model version**: 2025-04-14 (Default) **(3)**
+    - **Model version upgrade policy**: Upgrade once new default version becomes available **(4)**
+    -  **Enable Dynamic Quota**: Enabled **(5)**
+    - **Tokens per Minute Rate Limit (thousands)**: 250K **(6)**
     
     
-         ![](images/im-07.png)
+         ![](images/img-01-06.png)
+
+         ![](images/img-01-07.png)
          
          >**Note:** Azure OpenAI includes multiple models, each optimized for a different balance of capabilities and performance. In this exercise, you'll use the **gpt-4.1-mini** model, which is a good general model for summarizing and generating natural language and code. For more information about the available models in Azure OpenAI, see [Models](https://learn.microsoft.com/azure/cognitive-services/openai/concepts/models) in the Azure OpenAI documentation.
 
@@ -115,6 +116,6 @@ In this lab we have completed the following:
 
 ## Summary
 
-In this lab, you deployed an Azure OpenAI model using Azure AI Foundry portal, created and configured a deployment resource, and deployed the GPT-35-Turbo model
+In this lab, you deployed an Azure OpenAI model using Azure AI Foundry portal, created and configured a deployment resource, and deployed the gpt-4.1-mini model
 
 ## You have successfully completed the lab.
