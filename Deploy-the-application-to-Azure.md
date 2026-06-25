@@ -27,8 +27,24 @@ In this task, you will be reviewing the OpenAI deployments.
 1. In the **Azure OpenAI** resource pane, click **Go to Foundry portal** from the top menu bar to navigate to the Azure AI Foundry portal.
 
    ![](images2/im-02.png "Azure OpenAI")
+
+1. On the **Create a project** page, enter the **Project name** as **Foundry-<inject key="DeploymentID" enableCopy="false"/> (1)**. For the **Region**, select **Sweden Central (2)**, and then select **Create (2)** while keeping the rest of the settings as default. On the **All set. Let’s build your agents.** page, select **Let’s go**.
+
+   ![](images/image-03.png)
+
+   ![](images/img-01-02.png)
+
+1. Skip all the pop-ups. On the **Microsoft Foundry** portal, from the top navigation menu, toggle the button **Off** to switch to the older version of **Microsoft Foundry**.
+
+   ![](images/image-04.png)
+
+   >**Note:** On the **Feedback** pop-up, select **Continue without feedback**.
+
+1. On the older version of the **Microsoft Foundry** portal, select **foundry-<inject key="DeploymentID" enableCopy="false"/> (1)**, and from the drop-down, select **SQL-OpenAI-<inject key="DeploymentID" enableCopy="false"/> (2)**.
+
+   ![](images/image-05.png)
       
-1. In Microsoft Foundry, select **Deployments (1)** from the left navigation pane, verify the **gpt-35-turbo** model is deployed with the name **sql-chatgpt-model (2)**, and copy the model name for later use.
+1. In Microsoft Foundry, select **Deployments (1)** from the left navigation pane, verify the **gpt-4.1-mini** model is deployed with the name **sql-chatgpt-model (2)**, and copy the model name for later use.
 
    ![](images2/im-03.png "Azure OpenAI")
 
@@ -117,6 +133,29 @@ In this task, you will be reviewing the code in the Visual Studio Code and publi
    ```bash
    azd up
    ```
+
+1. When propmpted: **Would you like to check your Azure development tools?** select **Yes (1)**.
+
+1. Continuing the `azd up` Deployment. Select Tools to Install. The Azure Developer CLI will prompt you to select recommended tools. A checklist will appear with the following pre-selected options:
+
+   - **Azure CLI** – The Azure command-line interface for managing Azure resources
+   - **GitHub Copilot CLI** – AI-powered CLI assistant from GitHub Copilot
+   - **Azure Tools VS Code Extension** – VS Code extension for browsing and managing Azure resources
+   - **Bicep VS Code Extension** – VS Code extension providing language support for Azure Bicep
+
+      > **Tip:** Use **arrow keys** to navigate, **Space** to select/deselect items, and **Left/Right** to select none/all.
+
+1. Select **Azure CLI (2)** and press **Enter** to confirm your selection and begin installation.
+
+   ![](images/image-06.png "Azure OpenAI")
+
+1. Once tools are installed, `azd` will prompt you to log in:
+
+   ```
+   azd auth login
+   ```
+
+1. A browser window will open. Sign in with your **Azure credentials**.
 
 1. Select your Azure subscription by pressing **Enter** to continue.
 
