@@ -43,12 +43,12 @@ In this task, you will deploy an Azure OpenAI model by setting up an instance, c
 
 5. Wait for deployment to complete. Then go to the deployed Azure OpenAI resource in the Azure portal.
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   - If you receive a success message, you can proceed to the next task.
-   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
- 
-   <validation step="c0099286-0167-4315-a0c3-f68942deeade" />
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- If you receive a success message, you can proceed to the next task.
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="c0099286-0167-4315-a0c3-f68942deeade" />
 
 ### Task 2: Deploy a model
 
@@ -84,28 +84,30 @@ Azure OpenAI provides a web-based portal named **Azure AI Foundry portal**, whic
    
    ![](images/img-01-05.png "Create a new deployment")
 
-1. Within the **Deploy gpt-4.1-mini** pop-up interface, enter the following details and then click on **Deploy (8)** button to deploy a model that you will be playing around with as you proceed.
+1. Within the **Deploy gpt-4.1-mini** pop-up interface, enter the following details and then click on **Create Deployment (9)** button to deploy a model that you will be playing around with as you proceed.
      
     - **Deployment name**: gpt-4.1-mini **(1)**
-    - **Deployment Type**: Standard **(2)**
-    - **Model version**: 2025-04-14 (Default) **(3)**
-    - **Model version upgrade policy**: Upgrade once new default version becomes available **(4)**
-    -  **Enable Dynamic Quota**: Enabled **(5)**
+    - **Offering**: Standard **(2)**
+    - Expand **Model version settings (3)**
+    - **Model version**: 2025-04-14 (Default) **(4)**
+    - **Model version upgrade policy**: Upgrade once new default version becomes available **(5)**
     - **Tokens per Minute Rate Limit (thousands)**: 250K **(6)**
+    - Select **Advanced (7)**
+    -  **Guardrails**: DefaultV2 **(8)**
     
     
-         ![](images/img-01-06.png)
+         ![](images/image-01.png)
 
-         ![](images/img-01-07.png)
+         ![](images/image-02.png)
          
          >**Note:** Azure OpenAI includes multiple models, each optimized for a different balance of capabilities and performance. In this exercise, you'll use the **gpt-4.1-mini** model, which is a good general model for summarizing and generating natural language and code. For more information about the available models in Azure OpenAI, see [Models](https://learn.microsoft.com/azure/cognitive-services/openai/concepts/models) in the Azure OpenAI documentation.
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   - If you receive a success message, you can proceed to the next task.
-   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
- 
-   <validation step="5502b06f-51ca-4a73-bb22-cdbe1e244193" />
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- If you receive a success message, you can proceed to the next task.
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="5502b06f-51ca-4a73-bb22-cdbe1e244193" />
 
 ## Review
 
